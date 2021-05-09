@@ -1,7 +1,6 @@
 import rdflib
 import pandas as pd
 
-from .IdentityManager import IdentityManager
 from .BaseGraph import BaseGraph
 
 

@@ -12,7 +12,7 @@ re
    and get GraphDB
 2. Install it and make sure you can view it at `http://localhost:7200/import`
 3. [Create a new repository](https://graphdb.ontotext.com/documentation/free/creating-a-repository.html)
-
+4. Set a password for the admin account under the settings tab
 
 #### Creating the Initial Graph
 

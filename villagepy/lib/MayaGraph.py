@@ -1,14 +1,17 @@
 import rdflib
 import pandas as pd
+import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
-from IdentityManager import IdentityManager
-from BaseGraph import BaseGraph
+from .IdentityManager import IdentityManager
+from .BaseGraph import BaseGraph
 
 
 class MayaGraph(BaseGraph):
 
-    def __init__(self, endpoint):
+    def __init__(self, endpoint, username, password):
         self.endpoint = endpoint
+        self.username = username
+        self.password = password
         self.sparql = SPARQLWrapper(endpoint)
         super().__init__()
 
@@ -126,59 +129,51 @@ class MayaGraph(BaseGraph):
         for result in results["results"]["bindings"]:
             yield (result["winik"]["value"], result["age"]["value"])
 
-    def get_partnerable_winiks(self):
+    def get_partnerable_winiks(self) -> tuple:
         """
-        Gets all of the males that can be partnered
-
-
-        Female may need TO BE OPTIONAL
-        :return:
+        Gets all of the male and female winiks that can be partnered.
+        The conditions are:
+            1. The winiks need to be more than 5844 days old
+            2. The winiks need to be single
+            3. The winiks cannot come from the same family
+            4. The winiks need to be within 1460 days old of each other
+        :return: A tuple of winiks that can be paired
         """
         query = """
                 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                 PREFIX maya: <https://maya.com#>
                 PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
-                SELECT ?winik_male ?male_age ?male_partnered ?winik_female ?female_age ?female_partnered WHERE {
+                SELECT DISTINCT ?winik_male ?male_age ?male_family ?winik_female ?female_age ?female_family WHERE {
                     ?winik_male rdf:type fh:Person_Male.
+                    ?winik_male maya:hasAge ?male_age.
+                    ?winik_male maya:hasFamily ?male_family.
                     ?winik_female rdf:type fh:Person_Female.
-                    ?winik_male maya:hasAge ?age.
-                    ?winik_female maya:hasAge ?age.
+                    ?winik_female maya:hasAge ?female_age.
+                    ?winik_female maya:hasFamily ?female_family.
                     BIND( EXISTS { ?winik_male maya:hasPartner ?male_partner } as ?male_partnered )
                     BIND( EXISTS { ?winik_female maya:hasPartner ?female_partner } as ?female_partnered )
                     FILTER(?male_age > 5844)
                     FILTER(?female_age > 5844)
+                    FILTER(?male_partnered = False)
+                    FILTER(?female_partnered = False)
+                    FILTER(?female_family != ?male_family)
+                    BIND(ABS(?male_age - ?female_age) as ?age_gap)
+                    FILTER(?age_gap < 1460)
                 }
         """
         self.sparql.setMethod("GET")
         self.sparql.setReturnFormat(JSON)
         self.sparql.setQuery(query)
         results = self.sparql.query().convert()
-        for result in results["results"]["bindings"]:
-            yield (result["winik"]["value"], result["age"]["value"], result["partnered"]["value"])
 
-    def get_partnerable_females(self):
-        """
-        Gets all of the females that can be partnered
-        :return:
-        """
-        query = """
-                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-                PREFIX maya: <https://maya.com#>
-                PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
-                SELECT ?winik ?age ?partnered WHERE {
-                    ?winik rdf:type fh:Person_Female.
-                    ?winik maya:hasAge ?age.
-                    BIND( EXISTS { ?winik maya:hasPartner ?partner } as ?partnered )
-                    FILTER(?age > 5844)
-                }
-        """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
         for result in results["results"]["bindings"]:
-            yield (result["winik"]["value"], result["age"]["value"], result["partnered"]["value"])
+            print(results)
+#            male_data.append([result["winik_male"]["value"], result["male_age"]["value"],
+#                             result["male_partnered"]["value"], result["male_last_name"]["value"]])
+#            female_data.append([result["winik_female"]["value"], result["female_age"]["value"],
+#                                result["female_partnered"]["value"], result["female_last_name"]["value"]])
 
+        return 1, 2
 
     def update_partner(self, winik, new_partner):
         """
@@ -191,7 +186,25 @@ class MayaGraph(BaseGraph):
     def save(self, path) -> None:
         """
         Saves the graph to disk
-        :param path:
-        :return:
+        :param path: The path on disk where the graph is written to
+        :return: None
         """
-        pass
+        headers = {
+            'Accept': 'application/x-trig',
+        }
+
+        params = (
+            ('infer', 'false'),
+        )
+
+        response = requests.get(f'{self.endpoint}/statements', headers=headers, params=params)
+        with open(path, "w") as f:
+            f.write(response.text)
+
+    def delete(self) -> None:
+        """
+        Deletes the contents of the graph
+
+        :return: None
+        """
+        raise NotImplementedError("Not completed yet!")
