@@ -1,7 +1,7 @@
 import rdflib
 import pandas as pd
 import requests
-from SPARQLWrapper import SPARQLWrapper, JSON
+from SPARQLWrapper import SPARQLWrapper, JSON, DIGEST, POST
 from .IdentityManager import IdentityManager
 from .BaseGraph import BaseGraph
 
@@ -167,7 +167,7 @@ class MayaGraph(BaseGraph):
         results = self.sparql.query().convert()
 
         for result in results["results"]["bindings"]:
-            print(results)
+            print(result)
 #            male_data.append([result["winik_male"]["value"], result["male_age"]["value"],
 #                             result["male_partnered"]["value"], result["male_last_name"]["value"]])
 #            female_data.append([result["winik_female"]["value"], result["female_age"]["value"],
@@ -207,4 +207,16 @@ class MayaGraph(BaseGraph):
 
         :return: None
         """
-        raise NotImplementedError("Not completed yet!")
+        query = """
+        DELETE {
+            ?s ?p ?o .
+        } WHERE {
+            ?s ?p ?o .
+        }
+        """
+        endpoint = SPARQLWrapper(f'{self.endpoint}/statements')
+        endpoint.setHTTPAuth(DIGEST)
+        endpoint.setCredentials(self.username, self.password)
+        endpoint.setMethod(POST)
+        endpoint.setQuery(query)
+        endpoint.query()
