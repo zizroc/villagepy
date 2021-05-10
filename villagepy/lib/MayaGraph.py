@@ -220,3 +220,22 @@ class MayaGraph(BaseGraph):
         endpoint.setMethod(POST)
         endpoint.setQuery(query)
         endpoint.query()
+
+class Query:
+    def __init__(self, endpoint, username, password):
+        self.graph = MayaGraph(endpoint, username, password)
+
+    def get(self, query):
+        self.sparql.setMethod("GET")
+        self.sparql.setReturnFormat(JSON)
+        self.sparql.setQuery(query)
+        results = self.sparql.query().convert()
+        return results
+
+    def post(self, query):
+        endpoint = SPARQLWrapper(f'{self.graph.endpoint}/statements')
+        endpoint.setHTTPAuth(DIGEST)
+        endpoint.setCredentials(self.graph.username, self.graph.password)
+        endpoint.setMethod(POST)
+        endpoint.setQuery(query)
+        endpoint.query()
