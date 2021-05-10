@@ -4,15 +4,12 @@ import requests
 from SPARQLWrapper import SPARQLWrapper, JSON, DIGEST, POST
 from .IdentityManager import IdentityManager
 from .BaseGraph import BaseGraph
+from .Query import Query
 
 
 class MayaGraph(BaseGraph):
-
     def __init__(self, endpoint, username, password):
-        self.endpoint = endpoint
-        self.username = username
-        self.password = password
-        self.sparql = SPARQLWrapper(endpoint)
+        self.query = Query(endpoint, username, password)
         super().__init__()
 
     def get_all_families(self):
@@ -221,21 +218,3 @@ class MayaGraph(BaseGraph):
         endpoint.setQuery(query)
         endpoint.query()
 
-class Query:
-    def __init__(self, endpoint, username, password):
-        self.graph = MayaGraph(endpoint, username, password)
-
-    def get(self, query):
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
-        return results
-
-    def post(self, query):
-        endpoint = SPARQLWrapper(f'{self.graph.endpoint}/statements')
-        endpoint.setHTTPAuth(DIGEST)
-        endpoint.setCredentials(self.graph.username, self.graph.password)
-        endpoint.setMethod(POST)
-        endpoint.setQuery(query)
-        endpoint.query()

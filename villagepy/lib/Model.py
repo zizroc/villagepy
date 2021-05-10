@@ -1,4 +1,4 @@
-from villagepy.lib.MayaGraph import MayaGraph, Query
+from villagepy.lib.MayaGraph import MayaGraph
 from SPARQLWrapper import JSON, POST, DIGEST, BASIC, SPARQLWrapper
 
 
