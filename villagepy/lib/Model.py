@@ -51,12 +51,7 @@ class Model:
                 BIND(?age + 1 AS ?new_age)
             }
         """
-        endpoint = SPARQLWrapper(f'{self.graph.endpoint}/statements')
-        endpoint.setHTTPAuth(DIGEST)
-        endpoint.setCredentials(self.graph.username, self.graph.password)
-        endpoint.setMethod(POST)
-        endpoint.setQuery(query)
-        endpoint.query()
+        self.graph.query.post(query)
 
     def partner_winiks(self, bride, groom):
         """
@@ -77,12 +72,7 @@ class Model:
                 BIND(<"""+groom+"""> as ?groom)
             }
         """
-        endpoint = SPARQLWrapper(f'{self.graph.endpoint}/statements')
-        endpoint.setHTTPAuth(DIGEST)
-        endpoint.setCredentials(self.graph.username, self.graph.password)
-        endpoint.setMethod(POST)
-        endpoint.setQuery(query)
-        endpoint.query()
+        self.graph.query.post(query)
 
     def birth_subsystem(self) -> None:
         """
@@ -105,10 +95,7 @@ class Model:
                     FILTER(?is_alive = True).
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.graph.query.get(query)
         print(results)
         for result in results["results"]["bindings"]:
             yield (result["winik"]["value"], result["age"]["value"])
@@ -139,9 +126,4 @@ class Model:
                 BIND(<"""+child_id+"""> AS ?child_id)
             }
         """
-        endpoint = SPARQLWrapper(f'{self.graph.endpoint}/statements')
-        endpoint.setHTTPAuth(DIGEST)
-        endpoint.setCredentials(self.graph.username, self.graph.password)
-        endpoint.setMethod(POST)
-        endpoint.setQuery(query)
-        endpoint.query()
+        self.graph.query.post(query)
