@@ -4,15 +4,12 @@ import requests
 from SPARQLWrapper import SPARQLWrapper, JSON, DIGEST, POST
 from .IdentityManager import IdentityManager
 from .BaseGraph import BaseGraph
+from .Query import Query
 
 
 class MayaGraph(BaseGraph):
-
     def __init__(self, endpoint, username, password):
-        self.endpoint = endpoint
-        self.username = username
-        self.password = password
-        self.sparql = SPARQLWrapper(endpoint)
+        self.query = Query(endpoint, username, password)
         super().__init__()
 
     def get_all_families(self):
@@ -23,10 +20,7 @@ class MayaGraph(BaseGraph):
                     ?family_id rdf:type maya:Family .
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
 
         for result in results["results"]["bindings"]:
             print(result)
@@ -43,10 +37,7 @@ class MayaGraph(BaseGraph):
                     FILTER(?is_alive = True).
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
 
         for result in results["results"]["bindings"]:
             yield result["winik"]["value"]
@@ -67,10 +58,8 @@ class MayaGraph(BaseGraph):
         """
         # ?winik maya:isAlive ?is_alive.
         #
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
+
         for result in results["results"]["bindings"]:
             yield result["val"]["value"]
 
@@ -82,10 +71,8 @@ class MayaGraph(BaseGraph):
                     ?winik rdf:type fh:Person.
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
+
         for result in results["results"]["bindings"]:
             yield result["winik"]["value"]
 
@@ -121,10 +108,8 @@ class MayaGraph(BaseGraph):
                     FILTER(?is_alive = True).
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
+
         print(results)
         for result in results["results"]["bindings"]:
             yield (result["winik"]["value"], result["age"]["value"])
@@ -161,10 +146,7 @@ class MayaGraph(BaseGraph):
                     FILTER(?age_gap < 1460)
                 }
         """
-        self.sparql.setMethod("GET")
-        self.sparql.setReturnFormat(JSON)
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
+        results = self.query.get(query)
 
         for result in results["results"]["bindings"]:
             print(result)
@@ -214,9 +196,5 @@ class MayaGraph(BaseGraph):
             ?s ?p ?o .
         }
         """
-        endpoint = SPARQLWrapper(f'{self.endpoint}/statements')
-        endpoint.setHTTPAuth(DIGEST)
-        endpoint.setCredentials(self.username, self.password)
-        endpoint.setMethod(POST)
-        endpoint.setQuery(query)
-        endpoint.query()
+        self.query.post(query)
+
