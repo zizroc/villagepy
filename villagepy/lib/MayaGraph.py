@@ -109,8 +109,6 @@ class MayaGraph(BaseGraph):
                 }
         """
         results = self.query.get(query)
-
-        print(results)
         for result in results["results"]["bindings"]:
             yield (result["winik"]["value"], result["age"]["value"])
 

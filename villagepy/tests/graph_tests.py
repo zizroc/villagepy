@@ -1,27 +1,13 @@
-from villagepy.lib.MayaGraph import MayaGraph
 from villagepy.lib.Model import Model
 
-m = Model("http://localhost:7200/repositories/Age-Test", "admin", "password")
-for winik in m.graph.get_all_winiks():
-    print(winik)
+m = Model("http://localhost:7200/repositories/Food-Production-Test", "admin", "password")
+
 #m.partnership()
-
-
-# Connect two winiks
-#m.partner_winiks("file:/snippet/generated/winik/50", "file:/snippet/generated/winik/51")
-
-# Get all of the winiks that have a partner. If things are run properly, this should not return the empty set
-"""
-PREFIX maya: <https://maya.com#>
-select * where { 
-	?winik maya:hasPartner ?partner.
-} 
-"""
-
-# Get the partner of winik 100
-"""
-PREFIX maya: <https://maya.com#>
-select * where { 
-	<file:/snippet/generated/winik/100> maya:hasPartner ?partner.
-} 
-"""
+#m.handle_calorie_deficit("file:/snippet/generated/family/A", 1, 2)
+# a = m.get_calorie_emergency("file:/snippet/generated/family/A")
+# print(a)
+m.connect_calorie_emergency("<file:/snippet/generated/family/A>", "<file:/snippet/generated/calorieEmergency/1>")
+#m.create_calorie_emergency(True, 10)
+#m.daily_resource_adjustments()
+#m.get_family_calories("file:/snippet/generated/family/A")
+#m.update_value("file:/snippet/generated/resource/121", "maya:hasQuantity", 777)

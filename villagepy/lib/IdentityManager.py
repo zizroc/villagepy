@@ -3,7 +3,7 @@ import rdflib
 
 class IdentityManager:
     def __init__(self):
-        self.counts = {'resource': 0, 'winik': 0, 'family': 0}
+        self.counts = {'resource': 0, 'winik': 0, 'family': 0, 'calorieEmergency': 0}
 
     def get_id(self, property_name: str) -> rdflib.URIRef:
         """

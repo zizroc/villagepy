@@ -54,7 +54,7 @@ class InitialGraph(BaseGraph):
                 self.database.add((winik_identifier, rdflib.RDF.type, self.fh.Person_Male))
             else:
                 self.database.add((winik_identifier, rdflib.RDF.type, self.fh.Person_Female))
-
+            # ADD EACH PARTNER!!!!!!!!!!
             self.database.add((winik_identifier, self.maya.hasHealth, rdflib.Literal(row['health'])))
             self.database.add((winik_identifier, self.maya.hasFirstName, rdflib.Literal(row['first_name'])))
             self.database.add((winik_identifier, self.maya.hasLastName, rdflib.Literal(row['last_name'])))
@@ -65,8 +65,7 @@ class InitialGraph(BaseGraph):
             self.database.add((winik_identifier, self.maya.isAlive, rdflib.Literal(row['alive'])))
             self.database.add((winik_identifier, self.maya.hasAge, rdflib.Literal(row['age'])))
             # Connect the winik to its family
-            family_id = rdflib.URIRef(f'family/{row["fam_id"]}')
-            self.database.add((winik_identifier, self.maya.hasFamily, family_id))
+            self.database.add((winik_identifier, self.maya.hasFamily, rdflib.URIRef(f'family/{row["fam_id"]}')))
 
         # Update the number of winiks
         self.id_manager.counts["winiks"] = len(winik_frame)
