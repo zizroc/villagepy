@@ -18,3 +18,12 @@ class IdentityManager:
         if property_name in self.counts:
             self.counts[property_name] += 1
             return rdflib.URIRef(f'{property_name}/{str(self.counts[property_name])}')
+
+    @staticmethod
+    def get_graph_id(self, class_name, count) -> str:
+        """
+        Returns an identifier that's valid in the graph database
+
+        :return:
+        """
+        return f"{class_name}/{count}"

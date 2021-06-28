@@ -1,8 +1,4 @@
-import rdflib
-import pandas as pd
 import requests
-from SPARQLWrapper import SPARQLWrapper, JSON, DIGEST, POST
-from .IdentityManager import IdentityManager
 from .BaseGraph import BaseGraph
 from .Query import Query
 
@@ -23,7 +19,6 @@ class MayaGraph(BaseGraph):
         results = self.query.get(query)
 
         for result in results["results"]["bindings"]:
-            print(result)
             yield result["family_id"]["value"]
 
     def get_living_winiks(self):
@@ -177,7 +172,7 @@ class MayaGraph(BaseGraph):
             ('infer', 'false'),
         )
 
-        response = requests.get(f'{self.endpoint}/statements', headers=headers, params=params)
+        response = requests.get(f'{self.query.endpoint}/statements', headers=headers, params=params)
         with open(path, "w") as f:
             f.write(response.text)
 
@@ -196,3 +191,21 @@ class MayaGraph(BaseGraph):
         """
         self.query.post(query)
 
+    def get_winik_id(self) -> str:
+        """
+        Gets a new identifier for a winik
+
+        :return: A new, unique identifier
+        """
+        query = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
+        SELECT (COUNT(?s) as ?total_count)
+        WHERE
+        {
+            ?s rdf:type fh:Person .
+        }
+        """
+        results = self.query.get(query)
+        assert len(results["results"]["bindings"])
+        return self.id_manager.get_graph_id("winik", int(results["total_count"]["value"]))
