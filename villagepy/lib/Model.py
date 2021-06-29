@@ -1,5 +1,6 @@
 from typing import List
 from random import randrange, randint
+import uuid
 import logging
 
 from villagepy.lib.MayaGraph import MayaGraph
@@ -11,11 +12,23 @@ class Model:
 
     def run(self, length: int):
         for step in range(length):
+            logging.info(f"Day {step}")
             print(f"Day {step}")
             self.graph.save(f'graph_{step}.rdf')
+            # Increase the age of all the living winiks by '1'
             self.increase_winik_age()
-            self.check_calorie_emergency(step)
-            self.daily_resource_adjustments(step)
+            # Handle the logic for each family unit
+            self.propagate_family(step)
+
+
+    def propagate_family(self, step):
+        """
+        Advances the family one step in time.
+
+        :return: None
+        """
+        self.check_calorie_emergency(step)
+        self.daily_resource_adjustments(step)
 
     def partnership(self) -> None:
         """
@@ -88,9 +101,11 @@ class Model:
         :return:
         """
         query = """
-                SELECT ?winik ?age ?partner ?child ?child_age WHERE {
+                PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
+                PREFIX maya: <https://maya.com#>
+                SELECT ?winik ?age ?partner ?child ?child_age ?last_name WHERE {
                     ?winik rdf:type fh:Person.
-                    ?winik maya:hasFamily <"""+family_id+""" .
+                    ?winik maya:hasFamily <"""+family_id+"""> .
                     ?winik maya:hasAge ?age .
                     ?winik maya:hasPartner ?partner .
                     ?winik maya:hasLastName ?last_name .
@@ -101,6 +116,7 @@ class Model:
                         }
                 }
         """
+        logging.debug("===Query Birth Subsystem ===")
         results = self.graph.query.get(query)
 
         # For every winik that is able to have a child
@@ -111,14 +127,18 @@ class Model:
             # Create the new winik
             age = int(result["age"]["value"])
             if age > 1:
-                self.create_child(winik_id, partner_id, last_name, family_id)
+                self.create_child(winik_id, partner_id, last_name, family_id, str(uuid.uuid4()))
 
-    def create_child(self, mother_id, father_id, last_name, family_id, gender, profession) -> str:
+    def create_child(self, mother_id, father_id, last_name, family_id, first_name) -> str:
         """
         Creates a winik that has parents.
 
         :param mother_id: The mother's identifier
         :param father_id: The father's identifier
+        :param last_name:
+        :param  family_id:
+        :param gender:
+        :param profession:
         :return: The identifier of the child
         """
         profession= "none"
@@ -128,11 +148,12 @@ class Model:
         else:
             gender="M"
 
-        new_winik_id = self.new_winik(gender, profession, last_name, family_id, 0)
+        new_winik_id = self.new_winik(gender, profession, last_name, family_id, first_name)
 
         self.connect_child(mother_id, father_id, new_winik_id)
+        return new_winik_id
 
-    def new_winik(self, gender, profession, last_name, family_id, age) -> str:
+    def new_winik(self, gender, profession, last_name, family_id, first_name) -> str:
         """
         Creates a new winik node
 
@@ -149,16 +170,18 @@ class Model:
             PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
             PREFIX maya: <https://maya.com#>
             INSERT {
-                <"""+winik_identifier+""" rdf:type """+gender_class+""" .
-                <"""+winik_identifier+""" maya:hasFirstName ?father_id .
-                <"""+winik_identifier+""" maya:hasFamily <"""+family_id+"""> .
-                <"""+winik_identifier+""" maya:hasLastName """+last_name+""" .
-                <"""+winik_identifier+""" maya:hasGender """+gender+""" .
-                <"""+winik_identifier+""" maya:hasProfession """+profession+""" .
-                <"""+winik_identifier+""" maya:isAlive True .
-                <"""+winik_identifier+""" maya:hasAge """+age+""" . 
+                <"""+winik_identifier+"""> rdf:type """+gender_class+""" .
+                <"""+winik_identifier+"""> maya:hasFirstName '"""+first_name+"""' .
+                <"""+winik_identifier+"""> maya:hasFamily <"""+family_id+"""> .
+                <"""+winik_identifier+"""> maya:hasLastName '"""+last_name+"""' .
+                <"""+winik_identifier+"""> maya:hasGender '"""+gender+"""' .
+                <"""+winik_identifier+"""> maya:hasProfession '"""+profession+"""' .
+                <"""+winik_identifier+"""> maya:isAlive True .
+                <"""+winik_identifier+"""> maya:hasAge 1 .
             }
+            WHERE {}
         """
+        logging.debug("=== New Winik Query ===")
         self.graph.query.post(query)
         return winik_identifier
 
@@ -187,6 +210,7 @@ class Model:
                 BIND(<"""+child_id+"""> AS ?child_id)
             }
         """
+        logging.info("=== Connecting Child-Parent Query ===")
         self.graph.query.post(query)
 
     def daily_resource_adjustments(self, date):
@@ -220,6 +244,7 @@ class Model:
                     ?forager maya:hasFamily ?family
                 } GROUP BY ?family
         """
+        logging.debug("=== Profession Counts Family Query ===")
         results = self.graph.query.get(query)
 
         # Handle the family's logic
@@ -345,6 +370,7 @@ class Model:
                 BIND("""+str(count)+""" as ?new_count)
             }
         """
+        logging.debug("=== Updating Resources Query ===")
         self.graph.query.post(query)
 
     def get_resources(self, family_id) -> dict:
@@ -367,6 +393,7 @@ class Model:
             ?resource maya:hasQuantity ?quantity .
         }
         """
+        logging.debug("=== Getting Resources Query ===")
         results = self.graph.query.get(query)
         resource_info = {}
         for result in results["results"]["bindings"]:
@@ -395,6 +422,7 @@ class Model:
             ?winik maya:hasGender ?gender.
         }
         """
+        logging.debug("=== Getting Family Calorie Requirements Query ===")
         results = self.graph.query.get(query)
         calories = 0
         for result in results["results"]["bindings"]:
@@ -498,6 +526,7 @@ class Model:
                     FILTER(?health > 0)
                 }
         """
+        logging.debug("=== Getting Winiks at Critical Health Query ===")
         results = self.graph.query.get(health_critical)
         res = results["results"]["bindings"]
         if len(res) == 0:
@@ -527,6 +556,7 @@ class Model:
             ?emergency maya:hasStartDate ?start_date .
         }
         """
+        logging.debug("=== Getting Family Caloire Emergencies ===")
         return self.graph.query.get(query)
 
     def create_calorie_emergency(self, start, is_active=True) -> str:
@@ -549,6 +579,7 @@ class Model:
                 """+id+""" maya:start 1 .
             } WHERE {}
         """
+        logging.debug("=== Calorie Emergency Creation Query ===")
         self.graph.query.post(query)
         return id
 
@@ -566,6 +597,7 @@ class Model:
                 """+family_id+""" maya:hasCalorieEmergency """+calorie_emergency_id+"""
             } WHERE {}
         """
+        logging.debug("=== Connecting Calorie Emergency Query ===")
         self.graph.query.post(query)
 
     def update_health(self, winik_id, new_health) -> None:
@@ -593,6 +625,7 @@ class Model:
                 BIND("""+str(new_health)+""" as ?new_health)
             }
         """
+        logging.debug("=== Updating Winik Health Query ===")
         self.graph.query.post(query)
 
     def get_living_winiks_in_family(self, family_id) -> tuple:
@@ -614,6 +647,7 @@ class Model:
                     FILTER(?is_alive = True).
                 }
         """
+        logging.debug("=== Getting Living Winiks in Family Query ===")
         results = self.graph.query.get(query)
 
         for result in results["results"]["bindings"]:
@@ -645,6 +679,7 @@ class Model:
                 BIND(<"""+winik_id+"""> as ?winik)
             }
         """
+        logging.debug("=== Killing Winik Query ===")
         self.graph.query.post(query)
 
     def reset_resources(self, family_id):
@@ -662,6 +697,7 @@ class Model:
             <"""+family_id+"""> maya:hasResource ?resource .
         }
         """
+        logging.debug("=== Resetting Resources Query ===")
         results = self.graph.query.get(query)
         for result in results["results"]["bindings"]:
             self.update_resource(result["resource"]["value"], 0)
@@ -685,6 +721,7 @@ class Model:
             ?emergency maya:hasStartDate ?start_date .
         }
         """
+        logging.debug("=== Get Calorie Emergency Query ===")
         res = self.graph.query.get(query)
         # For each family, check if it's active
         for result in res["results"]["bindings"]:
@@ -707,6 +744,7 @@ class Model:
                  <"""+family_id+"""> maya:hasCalorieEmergency ?emergency .
             }
         """
+        logging.debug("=== Deleting Calorie Emergency Query ===")
         self.graph.query.post(delete_query)
 
     def job_adjustments(self, family_id):
@@ -761,7 +799,7 @@ class Model:
                         ?winik maya:hasProfession ?profession .
                     }
                     INSERT {
-                        ?winik maya:hasProfession <"""+new_profession+"""> .
+                        ?winik maya:hasProfession '"""+new_profession+"""' .
                     } WHERE {
                         ?winik rdf:type fh:Person .
                         ?winik maya:isAlive ?is_alive .

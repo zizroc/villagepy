@@ -1,3 +1,4 @@
+import logging
 import requests
 from .BaseGraph import BaseGraph
 from .Query import Query
@@ -164,6 +165,7 @@ class MayaGraph(BaseGraph):
         :param path: The path on disk where the graph is written to
         :return: None
         """
+        logging.info(f"Saving graph to {path}")
         headers = {
             'Accept': 'application/x-trig',
         }
@@ -208,4 +210,6 @@ class MayaGraph(BaseGraph):
         """
         results = self.query.get(query)
         assert len(results["results"]["bindings"])
-        return self.id_manager.get_graph_id("winik", int(results["total_count"]["value"]))
+        res = results["results"]["bindings"][0]
+        new_count = int(res["total_count"]["value"]) + 1
+        return f'file:/snippet/generated/{self.id_manager.get_graph_id("winik", new_count)}'
