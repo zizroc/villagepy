@@ -1,5 +1,6 @@
 name, quantity
-coast_resources, 100
-marine_a, 100
-marine_b_, 100
-marine_c_, 100
+coast, 100
+garden, 100
+marine, 100
+marine-b, 100
+marine-c, 100

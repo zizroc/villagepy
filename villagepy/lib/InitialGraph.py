@@ -1,4 +1,5 @@
 import rdflib
+import math as math
 import pandas as pd
 
 from .BaseGraph import BaseGraph
@@ -54,7 +55,6 @@ class InitialGraph(BaseGraph):
                 self.database.add((winik_identifier, rdflib.RDF.type, self.fh.Person_Male))
             else:
                 self.database.add((winik_identifier, rdflib.RDF.type, self.fh.Person_Female))
-
             self.database.add((winik_identifier, self.maya.hasHealth, rdflib.Literal(row['health'])))
             self.database.add((winik_identifier, self.maya.hasFirstName, rdflib.Literal(row['first_name'])))
             self.database.add((winik_identifier, self.maya.hasLastName, rdflib.Literal(row['last_name'])))
@@ -65,9 +65,13 @@ class InitialGraph(BaseGraph):
             self.database.add((winik_identifier, self.maya.isAlive, rdflib.Literal(row['alive'])))
             self.database.add((winik_identifier, self.maya.hasAge, rdflib.Literal(row['age'])))
             # Connect the winik to its family
-            family_id = rdflib.URIRef(f'family/{row["fam_id"]}')
-            self.database.add((winik_identifier, self.maya.hasFamily, family_id))
-
+            self.database.add((winik_identifier, self.maya.hasFamily, rdflib.URIRef(f'family/{row["fam_id"]}')))
+            # Handle the winik's partner
+            partner = row['partner']
+            if partner and not math.isnan(partner):
+                partner_uri = rdflib.URIRef(f'winik/{int(row["partner"])}')
+                self.database.add((winik_identifier, self.maya.hasPartner, partner_uri))
+                self.database.add((partner_uri, self.maya.hasPartner, winik_identifier))
         # Update the number of winiks
         self.id_manager.counts["winiks"] = len(winik_frame)
 

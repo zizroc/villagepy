@@ -1,3 +1,4 @@
+import logging
 from SPARQLWrapper import JSON, DIGEST, POST, SPARQLWrapper
 
 class Query:
@@ -11,7 +12,9 @@ class Query:
         self.sparql.setMethod("GET")
         self.sparql.setReturnFormat(JSON)
         self.sparql.setQuery(query)
+        logging.debug("Sending SPARQL GET")
         results = self.sparql.query().convert()
+        logging.debug("Retrieved SPARQL GET")
         return results
 
     def post(self, query: str) -> None:
@@ -20,4 +23,6 @@ class Query:
         endpoint.setCredentials(self.username, self.password)
         endpoint.setMethod(POST)
         endpoint.setQuery(query)
+        logging.debug("Sending SPARQL POST")
         endpoint.query()
+        logging.debug("Retrieved SPARQL POST")

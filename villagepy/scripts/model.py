@@ -9,7 +9,7 @@ for i in range(10):
     # Check to see if any winiks can be partnered
     mayan_model.partnership()
     # See if any children should be created
-    mayan_model.children()
+    mayan_model.birth_subsystem()
     # Handle updating the resource counts
     mayan_model.daily_resource_adjustments()
     # Check to see if there's any starvation
