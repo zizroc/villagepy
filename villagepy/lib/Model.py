@@ -10,8 +10,8 @@ class Model:
     def __init__(self, graph_endpoint, username, password):
         self.graph = MayaGraph(graph_endpoint, username, password)
 
-    def run(self, length: int):
-        for step in range(length):
+    def run(self, length: int, start=0):
+        for step in range(start, length):
             logging.info(f"Starting Step: {step}")
             print(f"Starting Step: {step}")
             # Start by saving the previous step
@@ -373,8 +373,6 @@ class Model:
         :param family_id: The identifier of the family that has a surplus
         :return: None
         """
-
-
         query = """
                     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                     PREFIX maya: <https://maya.com#>
