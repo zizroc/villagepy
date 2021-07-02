@@ -10,11 +10,12 @@ class Model:
     def __init__(self, graph_endpoint, username, password):
         self.graph = MayaGraph(graph_endpoint, username, password)
 
-    def run(self, length: int):
-        for step in range(length):
-            logging.info(f"Day {step}")
-            print(f"Day {step}")
-            self.graph.save(f'graph_{step}.rdf')
+    def run(self, length: int, start=0):
+        for step in range(start, length):
+            logging.info(f"Starting Step: {step}")
+            print(f"Starting Step: {step}")
+            # Start by saving the previous step
+            self.graph.save(f'history/graph_{step}.ttl')
             # Increase the age of all the living winiks by '1'
             self.increase_winik_age()
             # Handle the logic for each family unit
@@ -68,6 +69,7 @@ class Model:
                 BIND(?age + 1 AS ?new_age)
             }
         """
+        logging.debug("=== Updating Winik Age Query ===")
         self.graph.query.post(query)
 
     def partner_winiks(self, bride, groom):
@@ -103,30 +105,39 @@ class Model:
         query = """
                 PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
                 PREFIX maya: <https://maya.com#>
-                SELECT ?winik ?age ?partner ?child ?child_age ?last_name WHERE {
-                    ?winik rdf:type fh:Person.
-                    ?winik maya:hasFamily <"""+family_id+"""> .
-                    ?winik maya:hasAge ?age .
-                    ?winik maya:hasPartner ?partner .
-                    ?winik maya:hasLastName ?last_name .
-                    OPTIONAL {
-                        ?child fh:has_natural_mother ?winik .
-                        ?child maya:hasAge ?child_age .
-                        FILTER(?child_age > 365)
-                        }
-                }
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+				SELECT ?winik (COUNT(?child) AS ?child_total) (COUNT(?child_age_newborn) AS ?child_age_newborn_total) ?last_name ?partner WHERE {
+			    {
+        OPTIONAL {
+               		?child maya:hasMother ?winik .
+		   	        ?child maya:hasAge ?child_age .
+            		?child maya:hasAge ?child_age_newborn .
+		            FILTER (?child_age_newborn < 365)
+        		}
+    		}
+        		{
+        			SELECT ?winik ?age ?partner ?last_name WHERE {
+	                	?winik rdf:type fh:Person_Female.
+	                    ?winik maya:hasFamily <"""+family_id+"""> .
+    	                ?winik maya:hasAge ?age .
+        	            ?winik maya:hasPartner ?partner .
+            	        ?winik maya:hasLastName ?last_name .
+	
+					}
+				}
+			} GROUP BY ?winik ?last_name ?partner ?child_age_newborn
         """
-        logging.debug("===Query Birth Subsystem ===")
+        logging.debug("=== Birth Subsystem Query ===")
         results = self.graph.query.get(query)
 
         # For every winik that is able to have a child
         for result in results["results"]["bindings"]:
-            winik_id = str(result["winik"]["value"])
-            partner_id = str(result["partner"]["value"])
-            last_name = str(result["last_name"]["value"])
-            # Create the new winik
-            age = int(result["age"]["value"])
-            if age > 1:
+            # Has under 5 children and less than 1 that are newborn
+            if int(result["child_total"]["value"]) < 5 and int(result["child_age_newborn_total"]["value"]) < 1:
+                winik_id = str(result["winik"]["value"])
+                partner_id = str(result["partner"]["value"])
+                last_name = str(result["last_name"]["value"])
+                # Create the new winik
                 self.create_child(winik_id, partner_id, last_name, family_id, str(uuid.uuid4()))
 
     def create_child(self, mother_id, father_id, last_name, family_id, first_name) -> str:
@@ -149,8 +160,8 @@ class Model:
             gender="M"
 
         new_winik_id = self.new_winik(gender, profession, last_name, family_id, first_name)
-
         self.connect_child(mother_id, father_id, new_winik_id)
+        logging.info(f"Created a new winik with id: {new_winik_id}")
         return new_winik_id
 
     def new_winik(self, gender, profession, last_name, family_id, first_name) -> str:
@@ -287,8 +298,6 @@ class Model:
                 # temp_cals is the amount of calories required from fish
                 temp_cals = 100 * family_required_calories - 250 * available_garden_resources - \
                             10 * available_coast_resources
-                self.update_resource(resources["garden"]["id"], 0)
-                self.update_resource(resources["coast"]["id"], 0)
 
                 # Now determine how many calories need to be contributed by fish
                 fish_newcals = 3000.0 * available_marine_resources
@@ -296,18 +305,59 @@ class Model:
                 fish_ccals = 3000.0 * available_marine_c_resources
                 surplus_cals = temp_cals - fish_newcals
 
+                coast_id = str(resources["coast"]["id"])
+                garden_id = str(resources["garden"]["id"])
+                marine_id = str(resources["marine"]["id"])
+                marine_b_id = str(resources["marine-b"]["id"])
+                marine_c_id = str(resources["marine-c"]["id"])
+                coast_count = 0
+                garden_count = 0
+                marine_count = 0
+                marine_b_count = 0
+                marine_c_count = 0
                 if surplus_cals > fish_bcals:
-                    self.update_resource(resources["marine"]["id"], 0)
-                    self.update_resource(resources["marine-b"]["id"], 0)
-                    self.update_resource(resources["marine-c"]["id"], 0)
+                    marine_count = 0
+                    marine_b_count = 0
+                    marine_c_count = 0
                 elif surplus_cals > 0:
-                    self.update_resource(resources["marine"]["id"], 0)
-                    self.update_resource(resources["marine-b"]["id"], 0)
-                    self.update_resource(resources["marine-c"]["id"], (fish_bcals - surplus_cals) / 3000.0)
+                    marine_count = 0
+                    marine_b_count = 0
+                    marine_c_count = (fish_bcals - surplus_cals) / 3000.0
                 else:
-                    self.update_resource(resources["marine"]["id"], 0)
-                    self.update_resource(resources["marine-b"]["id"], int(-surplus_cals / 3000.0))
-                    self.update_resource(resources["marine-c"]["id"], int(fish_bcals / 3000.0))
+                    marine_count = 0
+                    marine_b_count = int(-surplus_cals / 3000.0)
+                    marine_c_count = int(fish_bcals / 3000.0)
+
+                query = """
+                    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                    PREFIX maya: <https://maya.com#>
+                    PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
+                    DELETE {
+                        ?marine_id maya:hasCount ?old_marine .
+                        ?marine_b_id maya:hasCount ?old_b .
+                        ?marine_c_id maya:hasCount ?old_c .
+                    }
+                    INSERT {
+                        ?marine_id maya:hasCount ?marine_count .
+                        ?marine_b_id maya:hasCount ?marine_b_count .
+                        ?marine_c_id maya:hasCount ?marine_c_count .
+                        ?garden_id maya:hasCount ?garden_count.
+                        ?coast_id maya:hasCount ?coast_count .
+                    } WHERE {
+                    BIND(<"""+marine_id+"""> AS ?marine)
+                    BIND(<"""+marine_b_id+"""> AS ?marine_b)
+                    BIND(<"""+marine_c_id+"""> AS ?marine_c)
+                    BIND(<"""+garden_id+"""> AS ?garden_id)
+                    BIND(<"""+coast_id+"""> AS ?coast_id)                    
+                    BIND("""+str(marine_count)+""" AS ?marine_count)
+                    BIND("""+str(marine_b_count)+""" AS ?marine_b_count)
+                    BIND("""+str(marine_c_count)+""" AS ?marine_c_count)
+                    BIND("""+str(garden_count)+""" AS ?garden_count)
+                    BIND("""+str(coast_count)+""" AS ?coast_count)
+                    }
+                """
+                logging.debug("=== Update Resources Query ===")
+                self.graph.query.post(query)
 
                 self.handle_calorie_surplus(family_id)
 
@@ -316,34 +366,59 @@ class Model:
             # Handle any births
             self.birth_subsystem(family_id)
 
-    def handle_calorie_surplus(self, faimily_id: str) -> None:
+    def handle_calorie_surplus(self, family_id: str) -> None:
         """
         Adds '5' to each winik's health in particular family
 
         :param family_id: The identifier of the family that has a surplus
         :return: None
         """
-        # Query to get the health of each winik in the family
         query = """
-                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-                PREFIX maya: <https://maya.com#>
-                PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
-                SELECT ?winik ?health
-                WHERE {
-                    ?winik rdf:type fh:Person.
-                    ?winik maya:hasFamily <"""+faimily_id+"""> .
-                    ?winik maya:isAlive True.
-                    ?winik maya:hasHealth ?health.
-                }
-        """
-        results = self.graph.query.get(query)
-        for result in results["results"]["bindings"]:
-            winik_id = result["winik"]["value"]
-            health = int(result["health"]["value"]) + 5
-            # If the winik's health is over 100, reset to 100
-            if health >= 100:
-                health = 100
-            self.update_health(winik_id, health)
+                    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                    PREFIX maya: <https://maya.com#>
+                    PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
+                    DELETE {
+                        ?winik maya:hasHealth ?health.
+                    }
+                    INSERT {
+                        ?winik maya:hasProfession ?new_health .
+                    } WHERE {
+                        BIND(<"""+family_id+"""> AS ?family_id)
+                        ?winik rdf:type fh:Person .
+                        ?winik maya:isAlive ?is_alive .
+                        ?winik maya:hasHealth ?health .
+                        ?winik maya:hasFamily ?family_id
+                        FILTER(?is_alive = True)
+                        FILTER(?health <96)
+                        BIND(?health + 5 AS ?new_health)
+                        
+                    }"""
+        logging.debug("=== Add 5 to Family Health Query ===")
+        self.graph.query.post(query)
+
+
+
+        # Query to get the health of each winik in the family
+        #query = """
+        #        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        #        PREFIX maya: <https://maya.com#>
+        #        PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
+        #        SELECT ?winik ?health
+        #        WHERE {
+        #            ?winik rdf:type fh:Person.
+        #            ?winik maya:hasFamily <"""+faimily_id+"""> .
+        #            ?winik maya:isAlive True.
+        #            ?winik maya:hasHealth ?health.
+        #        }
+        #"""
+        #results = self.graph.query.get(query)
+        #for result in results["results"]["bindings"]:
+        #    winik_id = result["winik"]["value"]
+        #    health = int(result["health"]["value"]) + 5
+        #    # If the winik's health is over 100, reset to 100
+        #    if health >= 100:
+        #        health = 100
+        #    self.update_health(winik_id, health)
 
     def update_resource(self, resource_id: str, count: int) -> None:
         """
@@ -359,6 +434,7 @@ class Model:
                  <"""+resource_id+"""> maya:hasQuantity ?old_count .
             }
         """
+        logging.debug("=== Deleting Resource Query ==")
         self.graph.query.post(delete_query)
         query = """
             PREFIX maya: <https://maya.com#>
@@ -667,6 +743,7 @@ class Model:
                 <"""+winik_id+"""> maya:isAlive ?alive.
             }
         """
+        logging.debug("=== Delete Killing Winik Query ==")
         self.graph.query.post(query)
 
         query = """
@@ -758,7 +835,7 @@ class Model:
         # Get all of the winiks in the family
         query = """
             PREFIX maya: <https://maya.com#>
-            SELECT ?id ?age ?gender ?profession
+            SELECT ?winik ?age ?gender ?profession
             WHERE {
                 ?winik maya:hasFamily <"""+family_id+"""> .
                 ?winik maya:isAlive ?alive .
@@ -787,25 +864,22 @@ class Model:
 
             if len(emergency_event) and emergency_event["is_active"]["value"]:
                 new_profession = "farmer"
-
+            id = str(result["winik"]["value"])
             # Update the profession if it changed
             if new_profession != current_profession:
-                logging.info("Got a new profession!")
+                logging.info("=== Setting New Profession Query ===")
                 query = """
                     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                     PREFIX maya: <https://maya.com#>
                     PREFIX fh: <http://www.owl-ontologies.com/Ontology1172270693.owl#>
                     DELETE {
-                        ?winik maya:hasProfession ?profession .
+                        ?winik maya:hasProfession ?prof .
                     }
                     INSERT {
-                        ?winik maya:hasProfession '"""+new_profession+"""' .
+                        ?winik maya:hasProfession ?new_profession .
                     } WHERE {
-                        ?winik rdf:type fh:Person .
-                        ?winik maya:isAlive ?is_alive .
-                        ?winik maya:hasAge ?age .
-                        FILTER(?is_alive = True)
-                        BIND(?age + 1 AS ?new_age)
+                        BIND(<"""+id+"""> AS ?winik)
+                        BIND('"""+new_profession+"""' AS ?new_profession)
                     }
                 """
                 self.graph.query.post(query)

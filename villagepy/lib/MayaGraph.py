@@ -167,13 +167,14 @@ class MayaGraph(BaseGraph):
         """
         logging.info(f"Saving graph to {path}")
         headers = {
-            'Accept': 'application/x-trig',
+            'Accept': 'text/turtle',
         }
 
         params = (
             ('infer', 'false'),
+            ('context', 'null'),
+            ('infer', 'true')
         )
-
         response = requests.get(f'{self.query.endpoint}/statements', headers=headers, params=params)
         with open(path, "w") as f:
             f.write(response.text)

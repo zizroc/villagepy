@@ -3772,10 +3772,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/48> ;
     ns1:hasAge 6472 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/35> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/48> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3784,10 +3786,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/48> ;
     ns1:hasAge 5650 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/35> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/48> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3796,10 +3800,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/50> ;
     ns1:hasAge 10916 ;
     ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/37> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "K" ;
+    ns1:hasMother <winik/50> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3808,10 +3814,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/51> ;
     ns1:hasAge 7680 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/38> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/51> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3820,10 +3828,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/52> ;
     ns1:hasAge 7926 ;
     ns1:hasFamily <family/M> ;
+    ns1:hasFather <winik/39> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "M" ;
+    ns1:hasMother <winik/52> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3832,10 +3842,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/52> ;
     ns1:hasAge 7050 ;
     ns1:hasFamily <family/M> ;
+    ns1:hasFather <winik/39> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "M" ;
+    ns1:hasMother <winik/52> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3844,10 +3856,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/52> ;
     ns1:hasAge 6221 ;
     ns1:hasFamily <family/M> ;
+    ns1:hasFather <winik/39> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "M" ;
+    ns1:hasMother <winik/52> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3856,10 +3870,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/53> ;
     ns1:hasAge 2547 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/57> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/53> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -3868,10 +3884,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/53> ;
     ns1:hasAge 1970 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/57> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/53> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -3880,10 +3898,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/53> ;
     ns1:hasAge 1099 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/57> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/53> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3892,10 +3912,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/53> ;
     ns1:hasAge 164 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/57> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/53> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3904,10 +3926,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/54> ;
     ns1:hasAge 1283 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/58> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/54> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3916,10 +3940,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/54> ;
     ns1:hasAge 618 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/58> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
+    ns1:hasMother <winik/54> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3928,10 +3954,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/55> ;
     ns1:hasAge 852 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/62> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/55> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3940,10 +3968,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/56> ;
     ns1:hasAge 3895 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/60> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/56> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -3952,10 +3982,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/56> ;
     ns1:hasAge 2848 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/60> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/56> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -3964,10 +3996,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/56> ;
     ns1:hasAge 1879 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/60> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/56> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -3976,10 +4010,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/56> ;
     ns1:hasAge 1204 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/60> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/56> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -3988,10 +4024,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/56> ;
     ns1:hasAge 691 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/60> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/56> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4000,10 +4038,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/59> ;
     ns1:hasAge 1837 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/69> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/59> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4012,10 +4052,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/59> ;
     ns1:hasAge 1230 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/69> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/59> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4024,10 +4066,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/59> ;
     ns1:hasAge 718 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/69> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/59> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4036,10 +4080,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/61> ;
     ns1:hasAge 2222 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/68> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/61> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4048,10 +4094,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/61> ;
     ns1:hasAge 1407 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/68> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/61> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4060,10 +4108,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/61> ;
     ns1:hasAge 933 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/68> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/61> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4072,10 +4122,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/61> ;
     ns1:hasAge 203 ;
     ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/68> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "e" ;
+    ns1:hasMother <winik/61> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4084,10 +4136,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/65> ;
     ns1:hasAge 3187 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/71> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/65> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4096,10 +4150,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/65> ;
     ns1:hasAge 2651 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/71> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/65> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4108,10 +4164,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/65> ;
     ns1:hasAge 1741 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/71> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/65> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4120,10 +4178,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/65> ;
     ns1:hasAge 701 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/71> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/65> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4132,10 +4192,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/66> ;
     ns1:hasAge 2794 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/72> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/66> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4144,10 +4206,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/66> ;
     ns1:hasAge 1951 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/72> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/66> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4156,10 +4220,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/66> ;
     ns1:hasAge 1086 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/72> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/66> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4168,10 +4234,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/66> ;
     ns1:hasAge 330 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/72> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/66> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4180,10 +4248,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/67> ;
     ns1:hasAge 1208 ;
     ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/78> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "g" ;
+    ns1:hasMother <winik/67> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4192,10 +4262,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/67> ;
     ns1:hasAge 268 ;
     ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/78> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "g" ;
+    ns1:hasMother <winik/67> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4204,10 +4276,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/70> ;
     ns1:hasAge 1188 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/85> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/70> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4216,10 +4290,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/70> ;
     ns1:hasAge 105 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/85> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/70> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4228,10 +4304,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/73> ;
     ns1:hasAge 1459 ;
     ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/92> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "k" ;
+    ns1:hasMother <winik/73> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4240,10 +4318,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/73> ;
     ns1:hasAge 498 ;
     ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/92> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "k" ;
+    ns1:hasMother <winik/73> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4252,10 +4332,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/75> ;
     ns1:hasAge 4375 ;
     ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/80> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "h" ;
+    ns1:hasMother <winik/75> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4264,10 +4346,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/75> ;
     ns1:hasAge 3441 ;
     ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/80> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "h" ;
+    ns1:hasMother <winik/75> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4276,10 +4360,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/75> ;
     ns1:hasAge 2345 ;
     ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/80> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "h" ;
+    ns1:hasMother <winik/75> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4288,10 +4374,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/75> ;
     ns1:hasAge 1314 ;
     ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/80> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "h" ;
+    ns1:hasMother <winik/75> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4300,10 +4388,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/75> ;
     ns1:hasAge 563 ;
     ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/80> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "h" ;
+    ns1:hasMother <winik/75> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4312,10 +4402,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/76> ;
     ns1:hasAge 3690 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/83> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/76> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4324,10 +4416,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/76> ;
     ns1:hasAge 2751 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/83> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/76> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4336,10 +4430,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/76> ;
     ns1:hasAge 2251 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/83> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/76> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4348,10 +4444,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/76> ;
     ns1:hasAge 1418 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/83> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/76> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4360,10 +4458,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/76> ;
     ns1:hasAge 893 ;
     ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/83> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "i" ;
+    ns1:hasMother <winik/76> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4372,10 +4472,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/77> ;
     ns1:hasAge 1999 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/95> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/77> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4384,10 +4486,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/77> ;
     ns1:hasAge 1383 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/95> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/77> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4396,10 +4500,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/77> ;
     ns1:hasAge 458 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/95> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/77> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4408,10 +4514,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/77> ;
     ns1:hasAge 54 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/95> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/77> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4420,10 +4528,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/79> ;
     ns1:hasAge 595 ;
     ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/94> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "k" ;
+    ns1:hasMother <winik/79> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4432,10 +4542,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/81> ;
     ns1:hasAge 3252 ;
     ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/88> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "j" ;
+    ns1:hasMother <winik/81> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4444,10 +4556,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/81> ;
     ns1:hasAge 2160 ;
     ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/88> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "j" ;
+    ns1:hasMother <winik/81> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4456,10 +4570,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/81> ;
     ns1:hasAge 1577 ;
     ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/88> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "j" ;
+    ns1:hasMother <winik/81> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4468,10 +4584,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/81> ;
     ns1:hasAge 769 ;
     ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/88> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "j" ;
+    ns1:hasMother <winik/81> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4480,10 +4598,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/81> ;
     ns1:hasAge 23 ;
     ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/88> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "j" ;
+    ns1:hasMother <winik/81> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4492,10 +4612,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/82> ;
     ns1:hasAge 1730 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/96> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/82> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4504,10 +4626,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/82> ;
     ns1:hasAge 1097 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/96> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/82> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4516,10 +4640,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/82> ;
     ns1:hasAge 174 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/96> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/82> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4528,10 +4654,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/84> ;
     ns1:hasAge 2240 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/100> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/84> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4540,10 +4668,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/84> ;
     ns1:hasAge 1553 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/100> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/84> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4552,10 +4682,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/84> ;
     ns1:hasAge 735 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/100> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/84> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4564,10 +4696,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/86> ;
     ns1:hasAge 1445 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/97> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/86> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4576,10 +4710,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/86> ;
     ns1:hasAge 774 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/97> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/86> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4588,10 +4724,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/87> ;
     ns1:hasAge 715 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/99> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/87> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4600,10 +4738,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/87> ;
     ns1:hasAge 49 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/99> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/87> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4612,10 +4752,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/89> ;
     ns1:hasAge 3631 ;
     ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/103> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "A" ;
+    ns1:hasMother <winik/89> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4624,10 +4766,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/89> ;
     ns1:hasAge 2888 ;
     ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/103> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "A" ;
+    ns1:hasMother <winik/89> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4636,10 +4780,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/89> ;
     ns1:hasAge 1869 ;
     ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/103> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "A" ;
+    ns1:hasMother <winik/89> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4648,10 +4794,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/89> ;
     ns1:hasAge 1048 ;
     ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/103> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "A" ;
+    ns1:hasMother <winik/89> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4660,10 +4808,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/89> ;
     ns1:hasAge 300 ;
     ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/103> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "A" ;
+    ns1:hasMother <winik/89> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4672,10 +4822,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/90> ;
     ns1:hasAge 2390 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/102> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/90> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4684,10 +4836,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/90> ;
     ns1:hasAge 1525 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/102> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/90> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4696,10 +4850,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/90> ;
     ns1:hasAge 592 ;
     ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/102> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "m" ;
+    ns1:hasMother <winik/90> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4708,10 +4864,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/91> ;
     ns1:hasAge 2823 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/108> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/91> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4720,10 +4878,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/91> ;
     ns1:hasAge 2354 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/108> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/91> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4732,10 +4892,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/91> ;
     ns1:hasAge 1587 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/108> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/91> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4744,10 +4906,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/91> ;
     ns1:hasAge 507 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/108> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/91> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4756,10 +4920,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/91> ;
     ns1:hasAge 46 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/108> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/91> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4768,10 +4934,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/93> ;
     ns1:hasAge 1660 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/110> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/93> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4780,10 +4948,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/93> ;
     ns1:hasAge 837 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/110> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/93> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4792,10 +4962,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/93> ;
     ns1:hasAge 52 ;
     ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/110> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
+    ns1:hasMother <winik/93> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4804,10 +4976,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/101> ;
     ns1:hasAge 1634 ;
     ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/112> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "C" ;
+    ns1:hasMother <winik/101> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4816,10 +4990,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/101> ;
     ns1:hasAge 1079 ;
     ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/112> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "C" ;
+    ns1:hasMother <winik/101> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4828,10 +5004,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/101> ;
     ns1:hasAge 139 ;
     ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/112> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "C" ;
+    ns1:hasMother <winik/101> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4840,10 +5018,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/104> ;
     ns1:hasAge 2386 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/115> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/104> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4852,10 +5032,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/104> ;
     ns1:hasAge 1967 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/115> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/104> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4864,10 +5046,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/104> ;
     ns1:hasAge 864 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/115> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/104> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4876,10 +5060,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/104> ;
     ns1:hasAge 36 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/115> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/104> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4888,10 +5074,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/105> ;
     ns1:hasAge 1442 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/116> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/105> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4900,10 +5088,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/105> ;
     ns1:hasAge 770 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/116> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/105> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4912,10 +5102,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/105> ;
     ns1:hasAge 185 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/116> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/105> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4924,10 +5116,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/106> ;
     ns1:hasAge 3872 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/114> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/106> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4936,10 +5130,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/106> ;
     ns1:hasAge 3040 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/114> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/106> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4948,10 +5144,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/106> ;
     ns1:hasAge 2146 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/114> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/106> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -4960,10 +5158,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/106> ;
     ns1:hasAge 1167 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/114> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/106> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4972,10 +5172,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/106> ;
     ns1:hasAge 237 ;
     ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/114> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "D" ;
+    ns1:hasMother <winik/106> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -4984,10 +5186,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 3705 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -4996,10 +5200,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 2966 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5008,10 +5214,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 2284 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5020,10 +5228,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 1792 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5032,10 +5242,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 992 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5044,10 +5256,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/107> ;
     ns1:hasAge 542 ;
     ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/120> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "E" ;
+    ns1:hasMother <winik/107> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5056,10 +5270,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/109> ;
     ns1:hasAge 2642 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/122> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/109> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5068,10 +5284,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/109> ;
     ns1:hasAge 1889 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/122> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/109> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5080,10 +5298,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/109> ;
     ns1:hasAge 1166 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/122> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/109> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5092,10 +5312,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/109> ;
     ns1:hasAge 104 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/122> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/109> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5104,10 +5326,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/111> ;
     ns1:hasAge 3409 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/121> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/111> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5116,10 +5340,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/111> ;
     ns1:hasAge 2711 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/121> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/111> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5128,10 +5354,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/111> ;
     ns1:hasAge 2093 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/121> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/111> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5140,10 +5368,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/111> ;
     ns1:hasAge 1138 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/121> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/111> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5152,10 +5382,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/111> ;
     ns1:hasAge 260 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/121> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/111> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5164,10 +5396,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/113> ;
     ns1:hasAge 1537 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/123> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/113> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5176,10 +5410,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/113> ;
     ns1:hasAge 524 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/123> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
+    ns1:hasMother <winik/113> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5188,10 +5424,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 4124 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5200,10 +5438,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 3573 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5212,10 +5452,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 3054 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5224,10 +5466,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 2275 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5236,10 +5480,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 1559 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5248,10 +5494,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/117> ;
     ns1:hasAge 504 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/130> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/117> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5260,10 +5508,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/118> ;
     ns1:hasAge 3469 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/134> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/118> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5272,10 +5522,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/118> ;
     ns1:hasAge 2794 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/134> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/118> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5284,10 +5536,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/118> ;
     ns1:hasAge 2158 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/134> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/118> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5296,10 +5550,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/118> ;
     ns1:hasAge 1621 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/134> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/118> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5308,10 +5564,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/118> ;
     ns1:hasAge 939 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/134> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/118> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5320,10 +5578,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/119> ;
     ns1:hasAge 3848 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/127> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/119> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5332,10 +5592,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/119> ;
     ns1:hasAge 3323 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/127> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/119> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5344,10 +5606,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/119> ;
     ns1:hasAge 2424 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/127> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/119> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5356,10 +5620,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/119> ;
     ns1:hasAge 1746 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/127> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/119> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5368,10 +5634,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/119> ;
     ns1:hasAge 664 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/127> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/119> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5380,10 +5648,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/124> ;
     ns1:hasAge 1855 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/133> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/124> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5392,10 +5662,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/124> ;
     ns1:hasAge 1169 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/133> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/124> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5404,10 +5676,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/124> ;
     ns1:hasAge 200 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/133> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
+    ns1:hasMother <winik/124> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5416,10 +5690,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/125> ;
     ns1:hasAge 1177 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/136> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/125> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5428,10 +5704,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/125> ;
     ns1:hasAge 165 ;
     ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/136> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "I" ;
+    ns1:hasMother <winik/125> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5440,10 +5718,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/126> ;
     ns1:hasAge 3507 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/139> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/126> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5452,10 +5732,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/126> ;
     ns1:hasAge 2681 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/139> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/126> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5464,10 +5746,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/126> ;
     ns1:hasAge 2055 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/139> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/126> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5476,10 +5760,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/126> ;
     ns1:hasAge 1168 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/139> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/126> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5488,10 +5774,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/126> ;
     ns1:hasAge 397 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/139> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/126> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5500,10 +5788,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 4598 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5512,10 +5802,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 3818 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5524,10 +5816,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 2897 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5536,10 +5830,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 2287 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5548,10 +5844,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 1761 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5560,10 +5858,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/129> ;
     ns1:hasAge 1204 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/140> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/129> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5572,10 +5872,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/131> ;
     ns1:hasAge 2229 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/141> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/131> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5584,10 +5886,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/131> ;
     ns1:hasAge 1198 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/141> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/131> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5596,10 +5900,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/131> ;
     ns1:hasAge 255 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/141> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/131> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5608,10 +5914,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/132> ;
     ns1:hasAge 2348 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/142> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/132> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5620,10 +5928,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/132> ;
     ns1:hasAge 1703 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/142> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/132> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5632,10 +5942,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/132> ;
     ns1:hasAge 1018 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/142> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/132> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5644,10 +5956,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/132> ;
     ns1:hasAge 142 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/142> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
+    ns1:hasMother <winik/132> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5656,10 +5970,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/135> ;
     ns1:hasAge 1789 ;
     ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/146> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "K" ;
+    ns1:hasMother <winik/135> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5668,10 +5984,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/135> ;
     ns1:hasAge 994 ;
     ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/146> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "K" ;
+    ns1:hasMother <winik/135> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5680,10 +5998,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/135> ;
     ns1:hasAge 530 ;
     ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/146> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "K" ;
+    ns1:hasMother <winik/135> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5692,10 +6012,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 3726 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -5704,10 +6026,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 3211 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5716,10 +6040,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 2789 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5728,10 +6054,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 1885 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5740,10 +6068,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 1045 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5752,10 +6082,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/144> ;
     ns1:hasAge 480 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/147> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/144> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5764,10 +6096,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/145> ;
     ns1:hasAge 3083 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/148> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/145> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5776,10 +6110,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/145> ;
     ns1:hasAge 2492 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/148> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/145> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5788,10 +6124,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/145> ;
     ns1:hasAge 1572 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/148> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/145> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5800,10 +6138,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/145> ;
     ns1:hasAge 655 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/148> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/145> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5812,10 +6152,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/151> ;
     ns1:hasAge 2959 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/149> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/151> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5824,10 +6166,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/151> ;
     ns1:hasAge 2069 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/149> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/151> ;
     ns1:hasProfession "forager" ;
     ns1:isAlive true .
 
@@ -5836,10 +6180,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/151> ;
     ns1:hasAge 1006 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/149> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/151> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5848,10 +6194,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/151> ;
     ns1:hasAge 277 ;
     ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/149> ;
     ns1:hasFirstName "cc" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "L" ;
+    ns1:hasMother <winik/151> ;
     ns1:hasProfession "none" ;
     ns1:isAlive true .
 
@@ -5860,10 +6208,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/16> ;
     ns1:hasAge 5350 ;
     ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/3> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/16> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -6980,10 +7330,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/46> ;
     ns1:hasAge 7524 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/33> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "G" ;
+    ns1:hasMother <winik/46> ;
     ns1:hasPartner <winik/98> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
@@ -6993,10 +7345,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/16> ;
     ns1:hasAge 6461 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/3> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "c" ;
+    ns1:hasMother <winik/16> ;
     ns1:hasPartner <winik/74> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
@@ -7006,10 +7360,12 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/19> ;
     ns1:hasAge 7243 ;
     ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/6> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "f" ;
+    ns1:hasMother <winik/19> ;
     ns1:hasPartner <winik/63> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
@@ -7019,27 +7375,29 @@ swrl:argument2 a owl:ObjectProperty .
     :has_natural_mother <winik/25> ;
     ns1:hasAge 6724 ;
     ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/12> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
+    ns1:hasMother <winik/25> ;
     ns1:hasPartner <winik/128> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
 <family/a> a ns1:Family ;
-    ns1:hasResource <resource/100>,
-        <resource/96>,
-        <resource/97>,
-        <resource/98>,
-        <resource/99> .
+    ns1:hasResource <resource/81>,
+        <resource/82>,
+        <resource/83>,
+        <resource/84>,
+        <resource/85> .
 
 <family/d> a ns1:Family ;
-    ns1:hasResource <resource/16>,
-        <resource/17>,
-        <resource/18>,
-        <resource/19>,
-        <resource/20> .
+    ns1:hasResource <resource/121>,
+        <resource/122>,
+        <resource/123>,
+        <resource/124>,
+        <resource/125> .
 
 :Adoptive_Child a owl:Class ;
     rdfs:subClassOf :Adopted_Kin_Relation .
@@ -7714,58 +8072,6 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 :has_twin_sister a owl:ObjectProperty ;
     rdfs:subPropertyOf :has_natural_sister .
 
-<winik/55> a :Person_Female ;
-    :has_natural_father <winik/1> ;
-    :has_natural_mother <winik/14> ;
-    ns1:hasAge 7360 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "a" ;
-    ns1:hasPartner <winik/62> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/62> a :Person_Male ;
-    :has_natural_father <winik/3> ;
-    :has_natural_mother <winik/16> ;
-    ns1:hasAge 7304 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "c" ;
-    ns1:hasPartner <winik/55> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/79> a :Person_Female ;
-    :has_natural_father <winik/7> ;
-    :has_natural_mother <winik/20> ;
-    ns1:hasAge 7280 ;
-    ns1:hasFamily <family/k> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/94> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/94> a :Person_Male ;
-    :has_natural_father <winik/11> ;
-    :has_natural_mother <winik/24> ;
-    ns1:hasAge 7033 ;
-    ns1:hasFamily <family/k> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "k" ;
-    ns1:hasPartner <winik/79> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
 :First_Degree_Relation a owl:Class ;
     rdfs:comment "Consistent with Snomed CT term First Degree Blood Relative"^^xsd:string,
         "Def: Any relative who is one meiosis away from a particular individual in a family (i.e., parent, sibling, offspring). Definition from GeneTests."^^xsd:string ;
@@ -8146,211 +8452,63 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     rdfs:range :Person_Male ;
     rdfs:subPropertyOf :has_paternal_cousin .
 
-<winik/113> a :Person_Female ;
-    :has_natural_father <winik/29> ;
-    :has_natural_mother <winik/42> ;
-    ns1:hasAge 8091 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "C" ;
-    ns1:hasPartner <winik/123> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/123> a :Person_Male ;
-    :has_natural_father <winik/32> ;
-    :has_natural_mother <winik/45> ;
-    ns1:hasAge 8731 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/113> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/125> a :Person_Female ;
-    :has_natural_father <winik/32> ;
-    :has_natural_mother <winik/45> ;
-    ns1:hasAge 7085 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/136> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/136> a :Person_Male ;
-    :has_natural_father <winik/35> ;
-    :has_natural_mother <winik/48> ;
-    ns1:hasAge 7447 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "I" ;
-    ns1:hasPartner <winik/125> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/54> a :Person_Female ;
+<winik/55> a :Person_Female ;
     :has_natural_father <winik/1> ;
     :has_natural_mother <winik/14> ;
-    ns1:hasAge 8006 ;
-    ns1:hasFamily <family/b> ;
+    ns1:hasAge 7360 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/1> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "a" ;
-    ns1:hasPartner <winik/58> ;
+    ns1:hasMother <winik/14> ;
+    ns1:hasPartner <winik/62> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/58> a :Person_Male ;
-    :has_natural_father <winik/2> ;
-    :has_natural_mother <winik/15> ;
-    ns1:hasAge 8677 ;
-    ns1:hasFamily <family/b> ;
+<winik/62> a :Person_Male ;
+    :has_natural_father <winik/3> ;
+    :has_natural_mother <winik/16> ;
+    ns1:hasAge 7304 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/3> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "b" ;
-    ns1:hasPartner <winik/54> ;
+    ns1:hasLastName "c" ;
+    ns1:hasMother <winik/16> ;
+    ns1:hasPartner <winik/55> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/67> a :Person_Female ;
-    :has_natural_father <winik/4> ;
-    :has_natural_mother <winik/17> ;
-    ns1:hasAge 7800 ;
-    ns1:hasFamily <family/g> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "d" ;
-    ns1:hasPartner <winik/78> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/70> a :Person_Female ;
-    :has_natural_father <winik/5> ;
-    :has_natural_mother <winik/18> ;
-    ns1:hasAge 7920 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "e" ;
-    ns1:hasPartner <winik/85> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/73> a :Person_Female ;
-    :has_natural_father <winik/6> ;
-    :has_natural_mother <winik/19> ;
-    ns1:hasAge 7987 ;
-    ns1:hasFamily <family/k> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "f" ;
-    ns1:hasPartner <winik/92> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/78> a :Person_Male ;
+<winik/79> a :Person_Female ;
     :has_natural_father <winik/7> ;
     :has_natural_mother <winik/20> ;
-    ns1:hasAge 8130 ;
-    ns1:hasFamily <family/g> ;
+    ns1:hasAge 7280 ;
+    ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/7> ;
     ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
+    ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/67> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/85> a :Person_Male ;
-    :has_natural_father <winik/9> ;
-    :has_natural_mother <winik/22> ;
-    ns1:hasAge 8410 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/70> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/86> a :Person_Female ;
-    :has_natural_father <winik/9> ;
-    :has_natural_mother <winik/22> ;
-    ns1:hasAge 8002 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/97> ;
+    ns1:hasMother <winik/20> ;
+    ns1:hasPartner <winik/94> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/87> a :Person_Female ;
-    :has_natural_father <winik/9> ;
-    :has_natural_mother <winik/22> ;
-    ns1:hasAge 7203 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/99> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/92> a :Person_Male ;
+<winik/94> a :Person_Male ;
     :has_natural_father <winik/11> ;
     :has_natural_mother <winik/24> ;
-    ns1:hasAge 8908 ;
+    ns1:hasAge 7033 ;
     ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/11> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "k" ;
-    ns1:hasPartner <winik/73> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/97> a :Person_Male ;
-    :has_natural_father <winik/12> ;
-    :has_natural_mother <winik/25> ;
-    ns1:hasAge 7309 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "l" ;
-    ns1:hasPartner <winik/86> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/99> a :Person_Male ;
-    :has_natural_father <winik/12> ;
-    :has_natural_mother <winik/25> ;
-    ns1:hasAge 6269 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "l" ;
-    ns1:hasPartner <winik/87> ;
+    ns1:hasMother <winik/24> ;
+    ns1:hasPartner <winik/79> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
@@ -8488,532 +8646,12 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 
 :n a swrl:Variable .
 
-<winik/1> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16511 ;
-    ns1:hasFamily <family/a> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "a" ;
-    ns1:hasPartner <winik/14> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/10> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16519 ;
-    ns1:hasFamily <family/j> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "j" ;
-    ns1:hasPartner <winik/23> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/100> a :Person_Male ;
-    :has_natural_father <winik/13> ;
-    :has_natural_mother <winik/26> ;
-    ns1:hasAge 9408 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "m" ;
-    ns1:hasPartner <winik/84> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/101> a :Person_Female ;
-    :has_natural_father <winik/13> ;
-    :has_natural_mother <winik/26> ;
-    ns1:hasAge 8482 ;
-    ns1:hasFamily <family/C> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "m" ;
-    ns1:hasPartner <winik/112> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/102> a :Person_Male ;
-    :has_natural_father <winik/13> ;
-    :has_natural_mother <winik/26> ;
-    ns1:hasAge 7698 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "m" ;
-    ns1:hasPartner <winik/90> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/105> a :Person_Female ;
-    :has_natural_father <winik/27> ;
-    :has_natural_mother <winik/40> ;
-    ns1:hasAge 7663 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "A" ;
-    ns1:hasPartner <winik/116> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/110> a :Person_Male ;
-    :has_natural_father <winik/28> ;
-    :has_natural_mother <winik/41> ;
-    ns1:hasAge 8098 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/93> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/112> a :Person_Male ;
-    :has_natural_father <winik/29> ;
-    :has_natural_mother <winik/42> ;
-    ns1:hasAge 9050 ;
-    ns1:hasFamily <family/C> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "C" ;
-    ns1:hasPartner <winik/101> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/116> a :Person_Male ;
-    :has_natural_father <winik/30> ;
-    :has_natural_mother <winik/43> ;
-    ns1:hasAge 8959 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "D" ;
-    ns1:hasPartner <winik/105> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/124> a :Person_Female ;
-    :has_natural_father <winik/32> ;
-    :has_natural_mother <winik/45> ;
-    ns1:hasAge 7827 ;
-    ns1:hasFamily <family/H> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/133> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/13> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16520 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "m" ;
-    ns1:hasPartner <winik/26> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/131> a :Person_Female ;
-    :has_natural_father <winik/34> ;
-    :has_natural_mother <winik/47> ;
-    ns1:hasAge 8819 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/141> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/133> a :Person_Male ;
-    :has_natural_father <winik/34> ;
-    :has_natural_mother <winik/47> ;
-    ns1:hasAge 7217 ;
-    ns1:hasFamily <family/H> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/124> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/135> a :Person_Female ;
-    :has_natural_father <winik/35> ;
-    :has_natural_mother <winik/48> ;
-    ns1:hasAge 7960 ;
-    ns1:hasFamily <family/K> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "I" ;
-    ns1:hasPartner <winik/146> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/14> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16386 ;
-    ns1:hasFamily <family/a> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "n" ;
-    ns1:hasPartner <winik/1> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/141> a :Person_Male ;
-    :has_natural_father <winik/36> ;
-    :has_natural_mother <winik/49> ;
-    ns1:hasAge 8975 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "J" ;
-    ns1:hasPartner <winik/131> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/146> a :Person_Male ;
-    :has_natural_father <winik/37> ;
-    :has_natural_mother <winik/50> ;
-    ns1:hasAge 8301 ;
-    ns1:hasFamily <family/K> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "K" ;
-    ns1:hasPartner <winik/135> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/17> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16420 ;
-    ns1:hasFamily <family/d> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "q" ;
-    ns1:hasPartner <winik/4> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/18> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16415 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "r" ;
-    ns1:hasPartner <winik/5> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/21> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16423 ;
-    ns1:hasFamily <family/h> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "u" ;
-    ns1:hasPartner <winik/8> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/23> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16436 ;
-    ns1:hasFamily <family/j> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "w" ;
-    ns1:hasPartner <winik/10> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/26> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16461 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "z" ;
-    ns1:hasPartner <winik/13> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/27> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16532 ;
-    ns1:hasFamily <family/A> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "A" ;
-    ns1:hasPartner <winik/40> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/29> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16577 ;
-    ns1:hasFamily <family/C> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "C" ;
-    ns1:hasPartner <winik/42> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/30> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16550 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "D" ;
-    ns1:hasPartner <winik/43> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/33> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16541 ;
-    ns1:hasFamily <family/G> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "G" ;
-    ns1:hasPartner <winik/46> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/4> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16562 ;
-    ns1:hasFamily <family/d> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "d" ;
-    ns1:hasPartner <winik/17> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/40> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16468 ;
-    ns1:hasFamily <family/A> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "N" ;
-    ns1:hasPartner <winik/27> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/42> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16850 ;
-    ns1:hasFamily <family/C> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "P" ;
-    ns1:hasPartner <winik/29> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/43> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16591 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "Q" ;
-    ns1:hasPartner <winik/30> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/46> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16660 ;
-    ns1:hasFamily <family/G> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "T" ;
-    ns1:hasPartner <winik/33> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/5> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16570 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "e" ;
-    ns1:hasPartner <winik/18> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/59> a :Person_Female ;
-    :has_natural_father <winik/2> ;
-    :has_natural_mother <winik/15> ;
-    ns1:hasAge 7949 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "b" ;
-    ns1:hasPartner <winik/69> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/69> a :Person_Male ;
-    :has_natural_father <winik/5> ;
-    :has_natural_mother <winik/18> ;
-    ns1:hasAge 8664 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "e" ;
-    ns1:hasPartner <winik/59> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/8> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16538 ;
-    ns1:hasFamily <family/h> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "h" ;
-    ns1:hasPartner <winik/21> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/82> a :Person_Female ;
-    :has_natural_father <winik/8> ;
-    :has_natural_mother <winik/21> ;
-    ns1:hasAge 8234 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "h" ;
-    ns1:hasPartner <winik/96> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/84> a :Person_Female ;
-    :has_natural_father <winik/9> ;
-    :has_natural_mother <winik/22> ;
-    ns1:hasAge 9011 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/100> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/90> a :Person_Female ;
-    :has_natural_father <winik/10> ;
-    :has_natural_mother <winik/23> ;
-    ns1:hasAge 9094 ;
-    ns1:hasFamily <family/m> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "j" ;
-    ns1:hasPartner <winik/102> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/93> a :Person_Female ;
-    :has_natural_father <winik/11> ;
-    :has_natural_mother <winik/24> ;
-    ns1:hasAge 7845 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "k" ;
-    ns1:hasPartner <winik/110> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/96> a :Person_Male ;
-    :has_natural_father <winik/12> ;
-    :has_natural_mother <winik/25> ;
-    ns1:hasAge 8408 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "l" ;
-    ns1:hasPartner <winik/82> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
 <family/M> a ns1:Family ;
-    ns1:hasResource <resource/11>,
-        <resource/12>,
-        <resource/13>,
-        <resource/14>,
-        <resource/15> .
+    ns1:hasResource <resource/100>,
+        <resource/96>,
+        <resource/97>,
+        <resource/98>,
+        <resource/99> .
 
 :Blood_Relation a owl:Class ;
     rdfs:comment "consistent with Snomed CT term Relative"^^xsd:string ;
@@ -9084,480 +8722,252 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     rdfs:range :Person_Female ;
     rdfs:subPropertyOf :has_half_sibling .
 
-<winik/104> a :Person_Female ;
-    :has_natural_father <winik/27> ;
-    :has_natural_mother <winik/40> ;
-    ns1:hasAge 8774 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "A" ;
-    ns1:hasPartner <winik/115> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/109> a :Person_Female ;
-    :has_natural_father <winik/28> ;
-    :has_natural_mother <winik/41> ;
-    ns1:hasAge 8786 ;
+<winik/113> a :Person_Female ;
+    :has_natural_father <winik/29> ;
+    :has_natural_mother <winik/42> ;
+    ns1:hasAge 8091 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/29> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/122> ;
+    ns1:hasLastName "C" ;
+    ns1:hasMother <winik/42> ;
+    ns1:hasPartner <winik/123> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/11> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16558 ;
-    ns1:hasFamily <family/k> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "k" ;
-    ns1:hasPartner <winik/24> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/115> a :Person_Male ;
-    :has_natural_father <winik/30> ;
-    :has_natural_mother <winik/43> ;
-    ns1:hasAge 9880 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "D" ;
-    ns1:hasPartner <winik/104> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/122> a :Person_Male ;
+<winik/123> a :Person_Male ;
     :has_natural_father <winik/32> ;
     :has_natural_mother <winik/45> ;
-    ns1:hasAge 9431 ;
+    ns1:hasAge 8731 ;
     ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/32> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/109> ;
+    ns1:hasMother <winik/45> ;
+    ns1:hasPartner <winik/113> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/132> a :Person_Female ;
-    :has_natural_father <winik/34> ;
-    :has_natural_mother <winik/47> ;
-    ns1:hasAge 8213 ;
-    ns1:hasFamily <family/J> ;
+<winik/125> a :Person_Female ;
+    :has_natural_father <winik/32> ;
+    :has_natural_mother <winik/45> ;
+    ns1:hasAge 7085 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/32> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/142> ;
+    ns1:hasLastName "F" ;
+    ns1:hasMother <winik/45> ;
+    ns1:hasPartner <winik/136> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/142> a :Person_Male ;
-    :has_natural_father <winik/36> ;
-    :has_natural_mother <winik/49> ;
-    ns1:hasAge 8267 ;
-    ns1:hasFamily <family/J> ;
+<winik/136> a :Person_Male ;
+    :has_natural_father <winik/35> ;
+    :has_natural_mother <winik/48> ;
+    ns1:hasAge 7447 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/35> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "J" ;
-    ns1:hasPartner <winik/132> ;
+    ns1:hasLastName "I" ;
+    ns1:hasMother <winik/48> ;
+    ns1:hasPartner <winik/125> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/145> a :Person_Female ;
-    :has_natural_father <winik/37> ;
-    :has_natural_mother <winik/50> ;
-    ns1:hasAge 9124 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "K" ;
-    ns1:hasPartner <winik/148> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/148> a :Person_Male ;
-    :has_natural_father <winik/38> ;
-    :has_natural_mother <winik/51> ;
-    ns1:hasAge 9546 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "L" ;
-    ns1:hasPartner <winik/145> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/149> a :Person_Male ;
-    :has_natural_father <winik/38> ;
-    :has_natural_mother <winik/51> ;
-    ns1:hasAge 8705 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "L" ;
-    ns1:hasPartner <winik/151> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/15> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16444 ;
-    ns1:hasFamily <family/b> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "o" ;
-    ns1:hasPartner <winik/2> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/151> a :Person_Female ;
-    :has_natural_father <winik/39> ;
-    :has_natural_mother <winik/52> ;
-    ns1:hasAge 9001 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "M" ;
-    ns1:hasPartner <winik/149> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/19> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16436 ;
-    ns1:hasFamily <family/f> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "s" ;
-    ns1:hasPartner <winik/6> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/2> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16562 ;
-    ns1:hasFamily <family/b> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "b" ;
-    ns1:hasPartner <winik/15> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/24> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16443 ;
-    ns1:hasFamily <family/k> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "x" ;
-    ns1:hasPartner <winik/11> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/31> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16480 ;
-    ns1:hasFamily <family/E> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "E" ;
-    ns1:hasPartner <winik/44> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/36> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16508 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "J" ;
-    ns1:hasPartner <winik/49> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/37> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16491 ;
-    ns1:hasFamily <family/K> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "K" ;
-    ns1:hasPartner <winik/50> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/38> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16478 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "L" ;
-    ns1:hasPartner <winik/51> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/39> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16504 ;
-    ns1:hasFamily <family/M> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "M" ;
-    ns1:hasPartner <winik/52> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/44> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16871 ;
-    ns1:hasFamily <family/E> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "R" ;
-    ns1:hasPartner <winik/31> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/49> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16666 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "W" ;
-    ns1:hasPartner <winik/36> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/50> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16877 ;
-    ns1:hasFamily <family/K> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "X" ;
-    ns1:hasPartner <winik/37> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/51> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16470 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "Y" ;
-    ns1:hasPartner <winik/38> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/52> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16526 ;
-    ns1:hasFamily <family/M> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "Z" ;
-    ns1:hasPartner <winik/39> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/53> a :Person_Female ;
+<winik/54> a :Person_Female ;
     :has_natural_father <winik/1> ;
     :has_natural_mother <winik/14> ;
-    ns1:hasAge 8883 ;
+    ns1:hasAge 8006 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/1> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "a" ;
-    ns1:hasPartner <winik/57> ;
+    ns1:hasMother <winik/14> ;
+    ns1:hasPartner <winik/58> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/57> a :Person_Male ;
+<winik/58> a :Person_Male ;
     :has_natural_father <winik/2> ;
     :has_natural_mother <winik/15> ;
-    ns1:hasAge 9628 ;
+    ns1:hasAge 8677 ;
     ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/2> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "b" ;
-    ns1:hasPartner <winik/53> ;
+    ns1:hasMother <winik/15> ;
+    ns1:hasPartner <winik/54> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/6> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16562 ;
-    ns1:hasFamily <family/f> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "f" ;
-    ns1:hasPartner <winik/19> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/61> a :Person_Female ;
-    :has_natural_father <winik/3> ;
-    :has_natural_mother <winik/16> ;
-    ns1:hasAge 8275 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "c" ;
-    ns1:hasPartner <winik/68> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/65> a :Person_Female ;
+<winik/67> a :Person_Female ;
     :has_natural_father <winik/4> ;
     :has_natural_mother <winik/17> ;
-    ns1:hasAge 9288 ;
-    ns1:hasFamily <family/f> ;
+    ns1:hasAge 7800 ;
+    ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/4> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "d" ;
-    ns1:hasPartner <winik/71> ;
+    ns1:hasMother <winik/17> ;
+    ns1:hasPartner <winik/78> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/66> a :Person_Female ;
-    :has_natural_father <winik/4> ;
-    :has_natural_mother <winik/17> ;
-    ns1:hasAge 8747 ;
-    ns1:hasFamily <family/f> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "d" ;
-    ns1:hasPartner <winik/72> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/68> a :Person_Male ;
+<winik/70> a :Person_Female ;
     :has_natural_father <winik/5> ;
     :has_natural_mother <winik/18> ;
-    ns1:hasAge 9497 ;
-    ns1:hasFamily <family/e> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "e" ;
-    ns1:hasPartner <winik/61> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/71> a :Person_Male ;
-    :has_natural_father <winik/6> ;
-    :has_natural_mother <winik/19> ;
-    ns1:hasAge 9089 ;
-    ns1:hasFamily <family/f> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "f" ;
-    ns1:hasPartner <winik/65> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/72> a :Person_Male ;
-    :has_natural_father <winik/6> ;
-    :has_natural_mother <winik/19> ;
-    ns1:hasAge 8478 ;
-    ns1:hasFamily <family/f> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "f" ;
-    ns1:hasPartner <winik/66> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/77> a :Person_Female ;
-    :has_natural_father <winik/7> ;
-    :has_natural_mother <winik/20> ;
-    ns1:hasAge 8923 ;
-    ns1:hasFamily <family/l> ;
+    ns1:hasAge 7920 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/5> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/95> ;
+    ns1:hasLastName "e" ;
+    ns1:hasMother <winik/18> ;
+    ns1:hasPartner <winik/85> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/95> a :Person_Male ;
+<winik/73> a :Person_Female ;
+    :has_natural_father <winik/6> ;
+    :has_natural_mother <winik/19> ;
+    ns1:hasAge 7987 ;
+    ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/6> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "f" ;
+    ns1:hasMother <winik/19> ;
+    ns1:hasPartner <winik/92> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/78> a :Person_Male ;
+    :has_natural_father <winik/7> ;
+    :has_natural_mother <winik/20> ;
+    ns1:hasAge 8130 ;
+    ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/7> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "g" ;
+    ns1:hasMother <winik/20> ;
+    ns1:hasPartner <winik/67> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/85> a :Person_Male ;
+    :has_natural_father <winik/9> ;
+    :has_natural_mother <winik/22> ;
+    ns1:hasAge 8410 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/9> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/22> ;
+    ns1:hasPartner <winik/70> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/86> a :Person_Female ;
+    :has_natural_father <winik/9> ;
+    :has_natural_mother <winik/22> ;
+    ns1:hasAge 8002 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/9> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/22> ;
+    ns1:hasPartner <winik/97> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/87> a :Person_Female ;
+    :has_natural_father <winik/9> ;
+    :has_natural_mother <winik/22> ;
+    ns1:hasAge 7203 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/9> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/22> ;
+    ns1:hasPartner <winik/99> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/92> a :Person_Male ;
+    :has_natural_father <winik/11> ;
+    :has_natural_mother <winik/24> ;
+    ns1:hasAge 8908 ;
+    ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/11> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "k" ;
+    ns1:hasMother <winik/24> ;
+    ns1:hasPartner <winik/73> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/97> a :Person_Male ;
     :has_natural_father <winik/12> ;
     :has_natural_mother <winik/25> ;
-    ns1:hasAge 9491 ;
+    ns1:hasAge 7309 ;
     ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/12> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "l" ;
-    ns1:hasPartner <winik/77> ;
+    ns1:hasMother <winik/25> ;
+    ns1:hasPartner <winik/86> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/99> a :Person_Male ;
+    :has_natural_father <winik/12> ;
+    :has_natural_mother <winik/25> ;
+    ns1:hasAge 6269 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/12> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "l" ;
+    ns1:hasMother <winik/25> ;
+    ns1:hasPartner <winik/87> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
 <family/g> a ns1:Family ;
-    ns1:hasResource <resource/101>,
-        <resource/102>,
-        <resource/103>,
-        <resource/104>,
-        <resource/105> .
+    ns1:hasResource <resource/116>,
+        <resource/117>,
+        <resource/118>,
+        <resource/119>,
+        <resource/120> .
 
 :Male_Adopted_Relation a owl:Class ;
     owl:equivalentClass [ a owl:Class ;
@@ -9592,506 +9002,12 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 
 :s a swrl:Variable .
 
-<winik/103> a :Person_Male ;
-    :has_natural_father <winik/27> ;
-    :has_natural_mother <winik/40> ;
-    ns1:hasAge 9626 ;
-    ns1:hasFamily <family/A> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "A" ;
-    ns1:hasPartner <winik/89> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/106> a :Person_Female ;
-    :has_natural_father <winik/28> ;
-    :has_natural_mother <winik/41> ;
-    ns1:hasAge 10356 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/114> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/108> a :Person_Male ;
-    :has_natural_father <winik/28> ;
-    :has_natural_mother <winik/41> ;
-    ns1:hasAge 9455 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/91> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/111> a :Person_Female ;
-    :has_natural_father <winik/29> ;
-    :has_natural_mother <winik/42> ;
-    ns1:hasAge 9871 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "C" ;
-    ns1:hasPartner <winik/121> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/114> a :Person_Male ;
-    :has_natural_father <winik/30> ;
-    :has_natural_mother <winik/43> ;
-    ns1:hasAge 10302 ;
-    ns1:hasFamily <family/D> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "D" ;
-    ns1:hasPartner <winik/106> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/118> a :Person_Female ;
-    :has_natural_father <winik/31> ;
-    :has_natural_mother <winik/44> ;
-    ns1:hasAge 10280 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "E" ;
-    ns1:hasPartner <winik/134> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/119> a :Person_Female ;
-    :has_natural_father <winik/31> ;
-    :has_natural_mother <winik/44> ;
-    ns1:hasAge 9709 ;
-    ns1:hasFamily <family/G> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "E" ;
-    ns1:hasPartner <winik/127> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/12> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16523 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "l" ;
-    ns1:hasPartner <winik/25> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/121> a :Person_Male ;
-    :has_natural_father <winik/32> ;
-    :has_natural_mother <winik/45> ;
-    ns1:hasAge 10413 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/111> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/126> a :Person_Female ;
-    :has_natural_father <winik/33> ;
-    :has_natural_mother <winik/46> ;
-    ns1:hasAge 9379 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "G" ;
-    ns1:hasPartner <winik/139> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/127> a :Person_Male ;
-    :has_natural_father <winik/33> ;
-    :has_natural_mother <winik/46> ;
-    ns1:hasAge 8316 ;
-    ns1:hasFamily <family/G> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "G" ;
-    ns1:hasPartner <winik/119> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/134> a :Person_Male ;
-    :has_natural_father <winik/35> ;
-    :has_natural_mother <winik/48> ;
-    ns1:hasAge 8822 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "I" ;
-    ns1:hasPartner <winik/118> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/139> a :Person_Male ;
-    :has_natural_father <winik/36> ;
-    :has_natural_mother <winik/49> ;
-    ns1:hasAge 10459 ;
-    ns1:hasFamily <family/J> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "J" ;
-    ns1:hasPartner <winik/126> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/16> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16464 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "p" ;
-    ns1:hasPartner <winik/3> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/20> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16433 ;
-    ns1:hasFamily <family/g> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "t" ;
-    ns1:hasPartner <winik/7> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/22> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16476 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "v" ;
-    ns1:hasPartner <winik/9> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/25> a :Person_Female ;
-    :has_natural_father <winik/-3> ;
-    :has_natural_mother <winik/-4> ;
-    ns1:hasAge 16438 ;
-    ns1:hasFamily <family/l> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "y" ;
-    ns1:hasPartner <winik/12> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/28> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16573 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/41> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/3> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16573 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "c" ;
-    ns1:hasPartner <winik/16> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/32> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16572 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "F" ;
-    ns1:hasPartner <winik/45> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/34> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16565 ;
-    ns1:hasFamily <family/H> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/47> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/35> a :Person_Male ;
-    :has_natural_father <winik/-5> ;
-    :has_natural_mother <winik/-6> ;
-    ns1:hasAge 16523 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "I" ;
-    ns1:hasPartner <winik/48> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/41> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16868 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "O" ;
-    ns1:hasPartner <winik/28> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/45> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16752 ;
-    ns1:hasFamily <family/F> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "S" ;
-    ns1:hasPartner <winik/32> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/47> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16456 ;
-    ns1:hasFamily <family/H> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "U" ;
-    ns1:hasPartner <winik/34> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/48> a :Person_Female ;
-    :has_natural_father <winik/-7> ;
-    :has_natural_mother <winik/-8> ;
-    ns1:hasAge 16426 ;
-    ns1:hasFamily <family/I> ;
-    ns1:hasFirstName "my" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "V" ;
-    ns1:hasPartner <winik/35> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/56> a :Person_Female ;
-    :has_natural_father <winik/2> ;
-    :has_natural_mother <winik/15> ;
-    ns1:hasAge 10080 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "b" ;
-    ns1:hasPartner <winik/60> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/60> a :Person_Male ;
-    :has_natural_father <winik/3> ;
-    :has_natural_mother <winik/16> ;
-    ns1:hasAge 9088 ;
-    ns1:hasFamily <family/c> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "c" ;
-    ns1:hasPartner <winik/56> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/7> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16490 ;
-    ns1:hasFamily <family/g> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/20> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/75> a :Person_Female ;
-    :has_natural_father <winik/7> ;
-    :has_natural_mother <winik/20> ;
-    ns1:hasAge 10428 ;
-    ns1:hasFamily <family/h> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/80> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/76> a :Person_Female ;
-    :has_natural_father <winik/7> ;
-    :has_natural_mother <winik/20> ;
-    ns1:hasAge 9573 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "g" ;
-    ns1:hasPartner <winik/83> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/80> a :Person_Male ;
-    :has_natural_father <winik/8> ;
-    :has_natural_mother <winik/21> ;
-    ns1:hasAge 9984 ;
-    ns1:hasFamily <family/h> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "h" ;
-    ns1:hasPartner <winik/75> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/81> a :Person_Female ;
-    :has_natural_father <winik/8> ;
-    :has_natural_mother <winik/21> ;
-    ns1:hasAge 9222 ;
-    ns1:hasFamily <family/j> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "h" ;
-    ns1:hasPartner <winik/88> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/83> a :Person_Male ;
-    :has_natural_father <winik/9> ;
-    :has_natural_mother <winik/22> ;
-    ns1:hasAge 9757 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/76> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/88> a :Person_Male ;
-    :has_natural_father <winik/10> ;
-    :has_natural_mother <winik/23> ;
-    ns1:hasAge 10437 ;
-    ns1:hasFamily <family/j> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "j" ;
-    ns1:hasPartner <winik/81> ;
-    ns1:hasProfession "fisher" ;
-    ns1:isAlive true .
-
-<winik/89> a :Person_Female ;
-    :has_natural_father <winik/10> ;
-    :has_natural_mother <winik/23> ;
-    ns1:hasAge 9772 ;
-    ns1:hasFamily <family/A> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "j" ;
-    ns1:hasPartner <winik/103> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/9> a :Person_Male ;
-    :has_natural_father <winik/-1> ;
-    :has_natural_mother <winik/-2> ;
-    ns1:hasAge 16539 ;
-    ns1:hasFamily <family/i> ;
-    ns1:hasFirstName "jx" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "i" ;
-    ns1:hasPartner <winik/22> ;
-    ns1:hasProfession "forager" ;
-    ns1:isAlive true .
-
-<winik/91> a :Person_Female ;
-    :has_natural_father <winik/11> ;
-    :has_natural_mother <winik/24> ;
-    ns1:hasAge 9698 ;
-    ns1:hasFamily <family/B> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "k" ;
-    ns1:hasPartner <winik/108> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
 <family/C> a ns1:Family ;
-    ns1:hasResource <resource/66>,
-        <resource/67>,
-        <resource/68>,
-        <resource/69>,
-        <resource/70> .
+    ns1:hasResource <resource/36>,
+        <resource/37>,
+        <resource/38>,
+        <resource/39>,
+        <resource/40> .
 
 :Foster_Kin_Relation a owl:Class ;
     rdfs:subClassOf :Family_Relation .
@@ -10126,116 +9042,612 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 :has_second_degree_relative a owl:ObjectProperty ;
     rdfs:subPropertyOf :has_blood_relative .
 
-<winik/107> a :Person_Female ;
+<winik/1> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16511 ;
+    ns1:hasFamily <family/a> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "a" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/14> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/10> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16519 ;
+    ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "j" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/23> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/100> a :Person_Male ;
+    :has_natural_father <winik/13> ;
+    :has_natural_mother <winik/26> ;
+    ns1:hasAge 9408 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/13> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "m" ;
+    ns1:hasMother <winik/26> ;
+    ns1:hasPartner <winik/84> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/101> a :Person_Female ;
+    :has_natural_father <winik/13> ;
+    :has_natural_mother <winik/26> ;
+    ns1:hasAge 8482 ;
+    ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/13> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "m" ;
+    ns1:hasMother <winik/26> ;
+    ns1:hasPartner <winik/112> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/102> a :Person_Male ;
+    :has_natural_father <winik/13> ;
+    :has_natural_mother <winik/26> ;
+    ns1:hasAge 7698 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/13> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "m" ;
+    ns1:hasMother <winik/26> ;
+    ns1:hasPartner <winik/90> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/105> a :Person_Female ;
+    :has_natural_father <winik/27> ;
+    :has_natural_mother <winik/40> ;
+    ns1:hasAge 7663 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/27> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "A" ;
+    ns1:hasMother <winik/40> ;
+    ns1:hasPartner <winik/116> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/110> a :Person_Male ;
     :has_natural_father <winik/28> ;
     :has_natural_mother <winik/41> ;
-    ns1:hasAge 9927 ;
-    ns1:hasFamily <family/E> ;
+    ns1:hasAge 8098 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/28> ;
     ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
+    ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "B" ;
-    ns1:hasPartner <winik/120> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/117> a :Person_Female ;
-    :has_natural_father <winik/31> ;
-    :has_natural_mother <winik/44> ;
-    ns1:hasAge 10806 ;
-    ns1:hasFamily <family/H> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "E" ;
-    ns1:hasPartner <winik/130> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/120> a :Person_Male ;
-    :has_natural_father <winik/31> ;
-    :has_natural_mother <winik/44> ;
-    ns1:hasAge 8724 ;
-    ns1:hasFamily <family/E> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "M" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "E" ;
-    ns1:hasPartner <winik/107> ;
+    ns1:hasMother <winik/41> ;
+    ns1:hasPartner <winik/93> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/129> a :Person_Female ;
+<winik/112> a :Person_Male ;
+    :has_natural_father <winik/29> ;
+    :has_natural_mother <winik/42> ;
+    ns1:hasAge 9050 ;
+    ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/29> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "C" ;
+    ns1:hasMother <winik/42> ;
+    ns1:hasPartner <winik/101> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/116> a :Person_Male ;
+    :has_natural_father <winik/30> ;
+    :has_natural_mother <winik/43> ;
+    ns1:hasAge 8959 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/30> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "D" ;
+    ns1:hasMother <winik/43> ;
+    ns1:hasPartner <winik/105> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/124> a :Person_Female ;
+    :has_natural_father <winik/32> ;
+    :has_natural_mother <winik/45> ;
+    ns1:hasAge 7827 ;
+    ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/32> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "F" ;
+    ns1:hasMother <winik/45> ;
+    ns1:hasPartner <winik/133> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/13> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16520 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "m" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/26> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/131> a :Person_Female ;
     :has_natural_father <winik/34> ;
     :has_natural_mother <winik/47> ;
-    ns1:hasAge 10582 ;
+    ns1:hasAge 8819 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/34> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "F" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/140> ;
+    ns1:hasMother <winik/47> ;
+    ns1:hasPartner <winik/141> ;
     ns1:hasProfession "farmer" ;
     ns1:isAlive true .
 
-<winik/130> a :Person_Male ;
+<winik/133> a :Person_Male ;
     :has_natural_father <winik/34> ;
     :has_natural_mother <winik/47> ;
-    ns1:hasAge 9750 ;
+    ns1:hasAge 7217 ;
     ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/34> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "H" ;
-    ns1:hasPartner <winik/117> ;
+    ns1:hasMother <winik/47> ;
+    ns1:hasPartner <winik/124> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/140> a :Person_Male ;
+<winik/135> a :Person_Female ;
+    :has_natural_father <winik/35> ;
+    :has_natural_mother <winik/48> ;
+    ns1:hasAge 7960 ;
+    ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/35> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "I" ;
+    ns1:hasMother <winik/48> ;
+    ns1:hasPartner <winik/146> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/14> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16386 ;
+    ns1:hasFamily <family/a> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "n" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/1> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/141> a :Person_Male ;
     :has_natural_father <winik/36> ;
     :has_natural_mother <winik/49> ;
-    ns1:hasAge 9421 ;
+    ns1:hasAge 8975 ;
     ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/36> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
     ns1:hasLastName "J" ;
-    ns1:hasPartner <winik/129> ;
+    ns1:hasMother <winik/49> ;
+    ns1:hasPartner <winik/131> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
-<winik/144> a :Person_Female ;
+<winik/146> a :Person_Male ;
     :has_natural_father <winik/37> ;
     :has_natural_mother <winik/50> ;
-    ns1:hasAge 9879 ;
-    ns1:hasFamily <family/L> ;
-    ns1:hasFirstName "bb" ;
-    ns1:hasGender "F" ;
-    ns1:hasHealth 100 ;
-    ns1:hasLastName "K" ;
-    ns1:hasPartner <winik/147> ;
-    ns1:hasProfession "farmer" ;
-    ns1:isAlive true .
-
-<winik/147> a :Person_Male ;
-    :has_natural_father <winik/38> ;
-    :has_natural_mother <winik/51> ;
-    ns1:hasAge 10336 ;
-    ns1:hasFamily <family/L> ;
+    ns1:hasAge 8301 ;
+    ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/37> ;
     ns1:hasFirstName "bb" ;
     ns1:hasGender "M" ;
     ns1:hasHealth 100 ;
-    ns1:hasLastName "L" ;
-    ns1:hasPartner <winik/144> ;
+    ns1:hasLastName "K" ;
+    ns1:hasMother <winik/50> ;
+    ns1:hasPartner <winik/135> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/17> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16420 ;
+    ns1:hasFamily <family/d> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "q" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/4> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/18> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16415 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "r" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/5> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/21> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16423 ;
+    ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "u" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/8> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/23> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16436 ;
+    ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "w" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/10> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/26> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16461 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "z" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/13> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/27> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16532 ;
+    ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "A" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/40> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/29> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16577 ;
+    ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "C" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/42> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/30> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16550 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "D" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/43> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/33> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16541 ;
+    ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "G" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/46> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/4> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16562 ;
+    ns1:hasFamily <family/d> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "d" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/17> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/40> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16468 ;
+    ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "N" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/27> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/42> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16850 ;
+    ns1:hasFamily <family/C> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "P" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/29> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/43> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16591 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "Q" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/30> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/46> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16660 ;
+    ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "T" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/33> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/5> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16570 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "e" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/18> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/59> a :Person_Female ;
+    :has_natural_father <winik/2> ;
+    :has_natural_mother <winik/15> ;
+    ns1:hasAge 7949 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/2> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "b" ;
+    ns1:hasMother <winik/15> ;
+    ns1:hasPartner <winik/69> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/69> a :Person_Male ;
+    :has_natural_father <winik/5> ;
+    :has_natural_mother <winik/18> ;
+    ns1:hasAge 8664 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/5> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "e" ;
+    ns1:hasMother <winik/18> ;
+    ns1:hasPartner <winik/59> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/8> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16538 ;
+    ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "h" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/21> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/82> a :Person_Female ;
+    :has_natural_father <winik/8> ;
+    :has_natural_mother <winik/21> ;
+    ns1:hasAge 8234 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/8> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "h" ;
+    ns1:hasMother <winik/21> ;
+    ns1:hasPartner <winik/96> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/84> a :Person_Female ;
+    :has_natural_father <winik/9> ;
+    :has_natural_mother <winik/22> ;
+    ns1:hasAge 9011 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/9> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/22> ;
+    ns1:hasPartner <winik/100> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/90> a :Person_Female ;
+    :has_natural_father <winik/10> ;
+    :has_natural_mother <winik/23> ;
+    ns1:hasAge 9094 ;
+    ns1:hasFamily <family/m> ;
+    ns1:hasFather <winik/10> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "j" ;
+    ns1:hasMother <winik/23> ;
+    ns1:hasPartner <winik/102> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/93> a :Person_Female ;
+    :has_natural_father <winik/11> ;
+    :has_natural_mother <winik/24> ;
+    ns1:hasAge 7845 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/11> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "k" ;
+    ns1:hasMother <winik/24> ;
+    ns1:hasPartner <winik/110> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/96> a :Person_Male ;
+    :has_natural_father <winik/12> ;
+    :has_natural_mother <winik/25> ;
+    ns1:hasAge 8408 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/12> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "l" ;
+    ns1:hasMother <winik/25> ;
+    ns1:hasPartner <winik/82> ;
     ns1:hasProfession "fisher" ;
     ns1:isAlive true .
 
 <family/K> a ns1:Family ;
-    ns1:hasResource <resource/121>,
-        <resource/122>,
-        <resource/123>,
-        <resource/124>,
-        <resource/125> .
+    ns1:hasResource <resource/10>,
+        <resource/6>,
+        <resource/7>,
+        <resource/8>,
+        <resource/9> .
 
 :Adopted_Kin_Relation a owl:Class ;
     rdfs:subClassOf :Family_Relation .
@@ -10265,32 +9677,32 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     rdfs:range :Person .
 
 <family/A> a ns1:Family ;
-    ns1:hasResource <resource/10>,
-        <resource/6>,
-        <resource/7>,
-        <resource/8>,
-        <resource/9> .
-
-<family/h> a ns1:Family ;
-    ns1:hasResource <resource/86>,
-        <resource/87>,
-        <resource/88>,
-        <resource/89>,
-        <resource/90> .
-
-<family/j> a ns1:Family ;
     ns1:hasResource <resource/1>,
         <resource/2>,
         <resource/3>,
         <resource/4>,
         <resource/5> .
 
+<family/h> a ns1:Family ;
+    ns1:hasResource <resource/66>,
+        <resource/67>,
+        <resource/68>,
+        <resource/69>,
+        <resource/70> .
+
+<family/j> a ns1:Family ;
+    ns1:hasResource <resource/16>,
+        <resource/17>,
+        <resource/18>,
+        <resource/19>,
+        <resource/20> .
+
 <family/k> a ns1:Family ;
-    ns1:hasResource <resource/91>,
-        <resource/92>,
-        <resource/93>,
-        <resource/94>,
-        <resource/95> .
+    ns1:hasResource <resource/31>,
+        <resource/32>,
+        <resource/33>,
+        <resource/34>,
+        <resource/35> .
 
 :fam_hx_state_belongs_to_whom a owl:ObjectProperty ;
     rdfs:domain :Health_State ;
@@ -10302,12 +9714,552 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     rdfs:range :Health_State ;
     owl:inverseOf :fam_hx_state_belongs_to_whom .
 
+<winik/104> a :Person_Female ;
+    :has_natural_father <winik/27> ;
+    :has_natural_mother <winik/40> ;
+    ns1:hasAge 8774 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/27> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "A" ;
+    ns1:hasMother <winik/40> ;
+    ns1:hasPartner <winik/115> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/109> a :Person_Female ;
+    :has_natural_father <winik/28> ;
+    :has_natural_mother <winik/41> ;
+    ns1:hasAge 8786 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/28> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "B" ;
+    ns1:hasMother <winik/41> ;
+    ns1:hasPartner <winik/122> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/11> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16558 ;
+    ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "k" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/24> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/115> a :Person_Male ;
+    :has_natural_father <winik/30> ;
+    :has_natural_mother <winik/43> ;
+    ns1:hasAge 9880 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/30> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "D" ;
+    ns1:hasMother <winik/43> ;
+    ns1:hasPartner <winik/104> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/122> a :Person_Male ;
+    :has_natural_father <winik/32> ;
+    :has_natural_mother <winik/45> ;
+    ns1:hasAge 9431 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/32> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "F" ;
+    ns1:hasMother <winik/45> ;
+    ns1:hasPartner <winik/109> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/132> a :Person_Female ;
+    :has_natural_father <winik/34> ;
+    :has_natural_mother <winik/47> ;
+    ns1:hasAge 8213 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/34> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "H" ;
+    ns1:hasMother <winik/47> ;
+    ns1:hasPartner <winik/142> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/142> a :Person_Male ;
+    :has_natural_father <winik/36> ;
+    :has_natural_mother <winik/49> ;
+    ns1:hasAge 8267 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/36> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "J" ;
+    ns1:hasMother <winik/49> ;
+    ns1:hasPartner <winik/132> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/145> a :Person_Female ;
+    :has_natural_father <winik/37> ;
+    :has_natural_mother <winik/50> ;
+    ns1:hasAge 9124 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/37> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "K" ;
+    ns1:hasMother <winik/50> ;
+    ns1:hasPartner <winik/148> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/148> a :Person_Male ;
+    :has_natural_father <winik/38> ;
+    :has_natural_mother <winik/51> ;
+    ns1:hasAge 9546 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/38> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "L" ;
+    ns1:hasMother <winik/51> ;
+    ns1:hasPartner <winik/145> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/149> a :Person_Male ;
+    :has_natural_father <winik/38> ;
+    :has_natural_mother <winik/51> ;
+    ns1:hasAge 8705 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/38> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "L" ;
+    ns1:hasMother <winik/51> ;
+    ns1:hasPartner <winik/151> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/15> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16444 ;
+    ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "o" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/2> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/151> a :Person_Female ;
+    :has_natural_father <winik/39> ;
+    :has_natural_mother <winik/52> ;
+    ns1:hasAge 9001 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/39> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "M" ;
+    ns1:hasMother <winik/52> ;
+    ns1:hasPartner <winik/149> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/19> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16436 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "s" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/6> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/2> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16562 ;
+    ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "b" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/15> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/24> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16443 ;
+    ns1:hasFamily <family/k> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "x" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/11> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/31> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16480 ;
+    ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "E" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/44> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/36> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16508 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "J" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/49> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/37> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16491 ;
+    ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "K" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/50> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/38> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16478 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "L" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/51> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/39> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16504 ;
+    ns1:hasFamily <family/M> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "M" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/52> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/44> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16871 ;
+    ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "R" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/31> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/49> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16666 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "W" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/36> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/50> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16877 ;
+    ns1:hasFamily <family/K> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "X" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/37> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/51> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16470 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "Y" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/38> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/52> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16526 ;
+    ns1:hasFamily <family/M> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "Z" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/39> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/53> a :Person_Female ;
+    :has_natural_father <winik/1> ;
+    :has_natural_mother <winik/14> ;
+    ns1:hasAge 8883 ;
+    ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/1> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "a" ;
+    ns1:hasMother <winik/14> ;
+    ns1:hasPartner <winik/57> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/57> a :Person_Male ;
+    :has_natural_father <winik/2> ;
+    :has_natural_mother <winik/15> ;
+    ns1:hasAge 9628 ;
+    ns1:hasFamily <family/b> ;
+    ns1:hasFather <winik/2> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "b" ;
+    ns1:hasMother <winik/15> ;
+    ns1:hasPartner <winik/53> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/6> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16562 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "f" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/19> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/61> a :Person_Female ;
+    :has_natural_father <winik/3> ;
+    :has_natural_mother <winik/16> ;
+    ns1:hasAge 8275 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/3> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "c" ;
+    ns1:hasMother <winik/16> ;
+    ns1:hasPartner <winik/68> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/65> a :Person_Female ;
+    :has_natural_father <winik/4> ;
+    :has_natural_mother <winik/17> ;
+    ns1:hasAge 9288 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/4> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "d" ;
+    ns1:hasMother <winik/17> ;
+    ns1:hasPartner <winik/71> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/66> a :Person_Female ;
+    :has_natural_father <winik/4> ;
+    :has_natural_mother <winik/17> ;
+    ns1:hasAge 8747 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/4> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "d" ;
+    ns1:hasMother <winik/17> ;
+    ns1:hasPartner <winik/72> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/68> a :Person_Male ;
+    :has_natural_father <winik/5> ;
+    :has_natural_mother <winik/18> ;
+    ns1:hasAge 9497 ;
+    ns1:hasFamily <family/e> ;
+    ns1:hasFather <winik/5> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "e" ;
+    ns1:hasMother <winik/18> ;
+    ns1:hasPartner <winik/61> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/71> a :Person_Male ;
+    :has_natural_father <winik/6> ;
+    :has_natural_mother <winik/19> ;
+    ns1:hasAge 9089 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/6> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "f" ;
+    ns1:hasMother <winik/19> ;
+    ns1:hasPartner <winik/65> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/72> a :Person_Male ;
+    :has_natural_father <winik/6> ;
+    :has_natural_mother <winik/19> ;
+    ns1:hasAge 8478 ;
+    ns1:hasFamily <family/f> ;
+    ns1:hasFather <winik/6> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "f" ;
+    ns1:hasMother <winik/19> ;
+    ns1:hasPartner <winik/66> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/77> a :Person_Female ;
+    :has_natural_father <winik/7> ;
+    :has_natural_mother <winik/20> ;
+    ns1:hasAge 8923 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/7> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "g" ;
+    ns1:hasMother <winik/20> ;
+    ns1:hasPartner <winik/95> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/95> a :Person_Male ;
+    :has_natural_father <winik/12> ;
+    :has_natural_mother <winik/25> ;
+    ns1:hasAge 9491 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/12> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "l" ;
+    ns1:hasMother <winik/25> ;
+    ns1:hasPartner <winik/77> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
 <family/E> a ns1:Family ;
-    ns1:hasResource <resource/56>,
-        <resource/57>,
-        <resource/58>,
-        <resource/59>,
-        <resource/60> .
+    ns1:hasResource <resource/71>,
+        <resource/72>,
+        <resource/73>,
+        <resource/74>,
+        <resource/75> .
 
 :has_natural_brother a owl:ObjectProperty ;
     rdfs:range :Person_Male ;
@@ -10318,11 +10270,11 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     rdfs:subPropertyOf :has_natural_full_sibling .
 
 <family/G> a ns1:Family ;
-    ns1:hasResource <resource/81>,
-        <resource/82>,
-        <resource/83>,
-        <resource/84>,
-        <resource/85> .
+    ns1:hasResource <resource/101>,
+        <resource/102>,
+        <resource/103>,
+        <resource/104>,
+        <resource/105> .
 
 :Age_Range a owl:Class .
 
@@ -10332,19 +10284,589 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 :has_third_degree_relative a owl:ObjectProperty ;
     rdfs:subPropertyOf :has_blood_relative .
 
+<winik/103> a :Person_Male ;
+    :has_natural_father <winik/27> ;
+    :has_natural_mother <winik/40> ;
+    ns1:hasAge 9626 ;
+    ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/27> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "A" ;
+    ns1:hasMother <winik/40> ;
+    ns1:hasPartner <winik/89> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/106> a :Person_Female ;
+    :has_natural_father <winik/28> ;
+    :has_natural_mother <winik/41> ;
+    ns1:hasAge 10356 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/28> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "B" ;
+    ns1:hasMother <winik/41> ;
+    ns1:hasPartner <winik/114> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/108> a :Person_Male ;
+    :has_natural_father <winik/28> ;
+    :has_natural_mother <winik/41> ;
+    ns1:hasAge 9455 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/28> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "B" ;
+    ns1:hasMother <winik/41> ;
+    ns1:hasPartner <winik/91> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/111> a :Person_Female ;
+    :has_natural_father <winik/29> ;
+    :has_natural_mother <winik/42> ;
+    ns1:hasAge 9871 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/29> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "C" ;
+    ns1:hasMother <winik/42> ;
+    ns1:hasPartner <winik/121> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/114> a :Person_Male ;
+    :has_natural_father <winik/30> ;
+    :has_natural_mother <winik/43> ;
+    ns1:hasAge 10302 ;
+    ns1:hasFamily <family/D> ;
+    ns1:hasFather <winik/30> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "D" ;
+    ns1:hasMother <winik/43> ;
+    ns1:hasPartner <winik/106> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/118> a :Person_Female ;
+    :has_natural_father <winik/31> ;
+    :has_natural_mother <winik/44> ;
+    ns1:hasAge 10280 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/31> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "E" ;
+    ns1:hasMother <winik/44> ;
+    ns1:hasPartner <winik/134> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/119> a :Person_Female ;
+    :has_natural_father <winik/31> ;
+    :has_natural_mother <winik/44> ;
+    ns1:hasAge 9709 ;
+    ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/31> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "E" ;
+    ns1:hasMother <winik/44> ;
+    ns1:hasPartner <winik/127> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/12> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16523 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "l" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/25> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/121> a :Person_Male ;
+    :has_natural_father <winik/32> ;
+    :has_natural_mother <winik/45> ;
+    ns1:hasAge 10413 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/32> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "F" ;
+    ns1:hasMother <winik/45> ;
+    ns1:hasPartner <winik/111> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/126> a :Person_Female ;
+    :has_natural_father <winik/33> ;
+    :has_natural_mother <winik/46> ;
+    ns1:hasAge 9379 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/33> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "G" ;
+    ns1:hasMother <winik/46> ;
+    ns1:hasPartner <winik/139> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/127> a :Person_Male ;
+    :has_natural_father <winik/33> ;
+    :has_natural_mother <winik/46> ;
+    ns1:hasAge 8316 ;
+    ns1:hasFamily <family/G> ;
+    ns1:hasFather <winik/33> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "G" ;
+    ns1:hasMother <winik/46> ;
+    ns1:hasPartner <winik/119> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/134> a :Person_Male ;
+    :has_natural_father <winik/35> ;
+    :has_natural_mother <winik/48> ;
+    ns1:hasAge 8822 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/35> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "I" ;
+    ns1:hasMother <winik/48> ;
+    ns1:hasPartner <winik/118> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/139> a :Person_Male ;
+    :has_natural_father <winik/36> ;
+    :has_natural_mother <winik/49> ;
+    ns1:hasAge 10459 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/36> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "J" ;
+    ns1:hasMother <winik/49> ;
+    ns1:hasPartner <winik/126> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/16> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16464 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "p" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/3> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/20> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16433 ;
+    ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "t" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/7> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/22> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16476 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "v" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/9> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/25> a :Person_Female ;
+    :has_natural_father <winik/-3> ;
+    :has_natural_mother <winik/-4> ;
+    ns1:hasAge 16438 ;
+    ns1:hasFamily <family/l> ;
+    ns1:hasFather <winik/-3> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "y" ;
+    ns1:hasMother <winik/-4> ;
+    ns1:hasPartner <winik/12> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/28> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16573 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "B" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/41> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/3> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16573 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "c" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/16> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/32> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16572 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "F" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/45> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/34> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16565 ;
+    ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "H" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/47> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/35> a :Person_Male ;
+    :has_natural_father <winik/-5> ;
+    :has_natural_mother <winik/-6> ;
+    ns1:hasAge 16523 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/-5> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "I" ;
+    ns1:hasMother <winik/-6> ;
+    ns1:hasPartner <winik/48> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/41> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16868 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "O" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/28> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/45> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16752 ;
+    ns1:hasFamily <family/F> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "S" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/32> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/47> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16456 ;
+    ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "U" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/34> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/48> a :Person_Female ;
+    :has_natural_father <winik/-7> ;
+    :has_natural_mother <winik/-8> ;
+    ns1:hasAge 16426 ;
+    ns1:hasFamily <family/I> ;
+    ns1:hasFather <winik/-7> ;
+    ns1:hasFirstName "my" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "V" ;
+    ns1:hasMother <winik/-8> ;
+    ns1:hasPartner <winik/35> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/56> a :Person_Female ;
+    :has_natural_father <winik/2> ;
+    :has_natural_mother <winik/15> ;
+    ns1:hasAge 10080 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/2> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "b" ;
+    ns1:hasMother <winik/15> ;
+    ns1:hasPartner <winik/60> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/60> a :Person_Male ;
+    :has_natural_father <winik/3> ;
+    :has_natural_mother <winik/16> ;
+    ns1:hasAge 9088 ;
+    ns1:hasFamily <family/c> ;
+    ns1:hasFather <winik/3> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "c" ;
+    ns1:hasMother <winik/16> ;
+    ns1:hasPartner <winik/56> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/7> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16490 ;
+    ns1:hasFamily <family/g> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "g" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/20> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/75> a :Person_Female ;
+    :has_natural_father <winik/7> ;
+    :has_natural_mother <winik/20> ;
+    ns1:hasAge 10428 ;
+    ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/7> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "g" ;
+    ns1:hasMother <winik/20> ;
+    ns1:hasPartner <winik/80> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/76> a :Person_Female ;
+    :has_natural_father <winik/7> ;
+    :has_natural_mother <winik/20> ;
+    ns1:hasAge 9573 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/7> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "g" ;
+    ns1:hasMother <winik/20> ;
+    ns1:hasPartner <winik/83> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/80> a :Person_Male ;
+    :has_natural_father <winik/8> ;
+    :has_natural_mother <winik/21> ;
+    ns1:hasAge 9984 ;
+    ns1:hasFamily <family/h> ;
+    ns1:hasFather <winik/8> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "h" ;
+    ns1:hasMother <winik/21> ;
+    ns1:hasPartner <winik/75> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/81> a :Person_Female ;
+    :has_natural_father <winik/8> ;
+    :has_natural_mother <winik/21> ;
+    ns1:hasAge 9222 ;
+    ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/8> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "h" ;
+    ns1:hasMother <winik/21> ;
+    ns1:hasPartner <winik/88> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/83> a :Person_Male ;
+    :has_natural_father <winik/9> ;
+    :has_natural_mother <winik/22> ;
+    ns1:hasAge 9757 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/9> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/22> ;
+    ns1:hasPartner <winik/76> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/88> a :Person_Male ;
+    :has_natural_father <winik/10> ;
+    :has_natural_mother <winik/23> ;
+    ns1:hasAge 10437 ;
+    ns1:hasFamily <family/j> ;
+    ns1:hasFather <winik/10> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "j" ;
+    ns1:hasMother <winik/23> ;
+    ns1:hasPartner <winik/81> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/89> a :Person_Female ;
+    :has_natural_father <winik/10> ;
+    :has_natural_mother <winik/23> ;
+    ns1:hasAge 9772 ;
+    ns1:hasFamily <family/A> ;
+    ns1:hasFather <winik/10> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "j" ;
+    ns1:hasMother <winik/23> ;
+    ns1:hasPartner <winik/103> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/9> a :Person_Male ;
+    :has_natural_father <winik/-1> ;
+    :has_natural_mother <winik/-2> ;
+    ns1:hasAge 16539 ;
+    ns1:hasFamily <family/i> ;
+    ns1:hasFather <winik/-1> ;
+    ns1:hasFirstName "jx" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "i" ;
+    ns1:hasMother <winik/-2> ;
+    ns1:hasPartner <winik/22> ;
+    ns1:hasProfession "forager" ;
+    ns1:isAlive true .
+
+<winik/91> a :Person_Female ;
+    :has_natural_father <winik/11> ;
+    :has_natural_mother <winik/24> ;
+    ns1:hasAge 9698 ;
+    ns1:hasFamily <family/B> ;
+    ns1:hasFather <winik/11> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "k" ;
+    ns1:hasMother <winik/24> ;
+    ns1:hasPartner <winik/108> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
 <family/b> a ns1:Family ;
-    ns1:hasResource <resource/21>,
-        <resource/22>,
-        <resource/23>,
-        <resource/24>,
-        <resource/25> .
+    ns1:hasResource <resource/91>,
+        <resource/92>,
+        <resource/93>,
+        <resource/94>,
+        <resource/95> .
 
 <family/m> a ns1:Family ;
-    ns1:hasResource <resource/126>,
-        <resource/127>,
-        <resource/128>,
-        <resource/129>,
-        <resource/130> .
+    ns1:hasResource <resource/11>,
+        <resource/12>,
+        <resource/13>,
+        <resource/14>,
+        <resource/15> .
 
 :Health_State a owl:Class .
 
@@ -10357,32 +10879,152 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     owl:inverseOf :fam_hx_in_third_degree_relative_belongs_to .
 
 <family/c> a ns1:Family ;
-    ns1:hasResource <resource/76>,
-        <resource/77>,
-        <resource/78>,
-        <resource/79>,
-        <resource/80> .
+    ns1:hasResource <resource/51>,
+        <resource/52>,
+        <resource/53>,
+        <resource/54>,
+        <resource/55> .
 
 <family/e> a ns1:Family ;
+    ns1:hasResource <resource/86>,
+        <resource/87>,
+        <resource/88>,
+        <resource/89>,
+        <resource/90> .
+
+<family/i> a ns1:Family ;
     ns1:hasResource <resource/106>,
         <resource/107>,
         <resource/108>,
         <resource/109>,
         <resource/110> .
 
-<family/i> a ns1:Family ;
+<winik/107> a :Person_Female ;
+    :has_natural_father <winik/28> ;
+    :has_natural_mother <winik/41> ;
+    ns1:hasAge 9927 ;
+    ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/28> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "B" ;
+    ns1:hasMother <winik/41> ;
+    ns1:hasPartner <winik/120> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/117> a :Person_Female ;
+    :has_natural_father <winik/31> ;
+    :has_natural_mother <winik/44> ;
+    ns1:hasAge 10806 ;
+    ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/31> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "E" ;
+    ns1:hasMother <winik/44> ;
+    ns1:hasPartner <winik/130> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/120> a :Person_Male ;
+    :has_natural_father <winik/31> ;
+    :has_natural_mother <winik/44> ;
+    ns1:hasAge 8724 ;
+    ns1:hasFamily <family/E> ;
+    ns1:hasFather <winik/31> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "E" ;
+    ns1:hasMother <winik/44> ;
+    ns1:hasPartner <winik/107> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/129> a :Person_Female ;
+    :has_natural_father <winik/34> ;
+    :has_natural_mother <winik/47> ;
+    ns1:hasAge 10582 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/34> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "H" ;
+    ns1:hasMother <winik/47> ;
+    ns1:hasPartner <winik/140> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/130> a :Person_Male ;
+    :has_natural_father <winik/34> ;
+    :has_natural_mother <winik/47> ;
+    ns1:hasAge 9750 ;
+    ns1:hasFamily <family/H> ;
+    ns1:hasFather <winik/34> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "H" ;
+    ns1:hasMother <winik/47> ;
+    ns1:hasPartner <winik/117> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/140> a :Person_Male ;
+    :has_natural_father <winik/36> ;
+    :has_natural_mother <winik/49> ;
+    ns1:hasAge 9421 ;
+    ns1:hasFamily <family/J> ;
+    ns1:hasFather <winik/36> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "J" ;
+    ns1:hasMother <winik/49> ;
+    ns1:hasPartner <winik/129> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<winik/144> a :Person_Female ;
+    :has_natural_father <winik/37> ;
+    :has_natural_mother <winik/50> ;
+    ns1:hasAge 9879 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/37> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "F" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "K" ;
+    ns1:hasMother <winik/50> ;
+    ns1:hasPartner <winik/147> ;
+    ns1:hasProfession "farmer" ;
+    ns1:isAlive true .
+
+<winik/147> a :Person_Male ;
+    :has_natural_father <winik/38> ;
+    :has_natural_mother <winik/51> ;
+    ns1:hasAge 10336 ;
+    ns1:hasFamily <family/L> ;
+    ns1:hasFather <winik/38> ;
+    ns1:hasFirstName "bb" ;
+    ns1:hasGender "M" ;
+    ns1:hasHealth 100 ;
+    ns1:hasLastName "L" ;
+    ns1:hasMother <winik/51> ;
+    ns1:hasPartner <winik/144> ;
+    ns1:hasProfession "fisher" ;
+    ns1:isAlive true .
+
+<family/B> a ns1:Family ;
     ns1:hasResource <resource/41>,
         <resource/42>,
         <resource/43>,
         <resource/44>,
         <resource/45> .
-
-<family/B> a ns1:Family ;
-    ns1:hasResource <resource/51>,
-        <resource/52>,
-        <resource/53>,
-        <resource/54>,
-        <resource/55> .
 
 :Female_Relation a owl:Class ;
     rdfs:subClassOf :Family_Relation ;
@@ -10395,18 +11037,18 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
 :Person a owl:Class .
 
 <family/H> a ns1:Family ;
-    ns1:hasResource <resource/71>,
-        <resource/72>,
-        <resource/73>,
-        <resource/74>,
-        <resource/75> .
+    ns1:hasResource <resource/111>,
+        <resource/112>,
+        <resource/113>,
+        <resource/114>,
+        <resource/115> .
 
 <family/I> a ns1:Family ;
-    ns1:hasResource <resource/116>,
-        <resource/117>,
-        <resource/118>,
-        <resource/119>,
-        <resource/120> .
+    ns1:hasResource <resource/56>,
+        <resource/57>,
+        <resource/58>,
+        <resource/59>,
+        <resource/60> .
 
 :Female_Blood_Relation a owl:Class ;
     owl:disjointWith :Male_Blood_Relation ;
@@ -10421,11 +11063,11 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
     owl:versionInfo "TODO: define this class?"^^xsd:string .
 
 <family/f> a ns1:Family ;
-    ns1:hasResource <resource/61>,
-        <resource/62>,
-        <resource/63>,
-        <resource/64>,
-        <resource/65> .
+    ns1:hasResource <resource/21>,
+        <resource/22>,
+        <resource/23>,
+        <resource/24>,
+        <resource/25> .
 
 :m a swrl:Variable .
 
@@ -10437,22 +11079,22 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
         <resource/30> .
 
 <family/D> a ns1:Family ;
-    ns1:hasResource <resource/111>,
-        <resource/112>,
-        <resource/113>,
-        <resource/114>,
-        <resource/115> .
+    ns1:hasResource <resource/61>,
+        <resource/62>,
+        <resource/63>,
+        <resource/64>,
+        <resource/65> .
 
 :d a swrl:Variable .
 
 :f a swrl:Variable .
 
 <family/l> a ns1:Family ;
-    ns1:hasResource <resource/31>,
-        <resource/32>,
-        <resource/33>,
-        <resource/34>,
-        <resource/35> .
+    ns1:hasResource <resource/126>,
+        <resource/127>,
+        <resource/128>,
+        <resource/129>,
+        <resource/130> .
 
 <family/L> a ns1:Family ;
     ns1:hasResource <resource/46>,
@@ -10462,11 +11104,11 @@ Snomed CT term, but Snomed places under first degree blood relative"""^^xsd:stri
         <resource/50> .
 
 <family/J> a ns1:Family ;
-    ns1:hasResource <resource/36>,
-        <resource/37>,
-        <resource/38>,
-        <resource/39>,
-        <resource/40> .
+    ns1:hasResource <resource/76>,
+        <resource/77>,
+        <resource/78>,
+        <resource/79>,
+        <resource/80> .
 
 :has_natural_father a owl:ObjectProperty ;
     rdfs:range :Person_Male ;
